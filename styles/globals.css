@@ -670,7 +670,7 @@ body a:hover {
 .page h1.entry-title a {
   position: relative;
   display: inline-block;
-  color: #f0a313;
+  color: #bb9144;
 }
 
 .page h1.entry-title a:after {
@@ -678,7 +678,7 @@ body a:hover {
   display: block;
   width: 0;
   height: 3px;
-  background-color: #f0a313;
+  background-color: #bb9144;
   transition: width 0.3s;
   position: absolute;
   left: 0;
@@ -989,7 +989,7 @@ body a:hover {
   content: "\201C";
   font-size: 470px;
   line-height: 100%;
-  color: #fae3b5;
+  color: #b4985f;
   margin-bottom: -346px;
   margin-top: -50px;
 }
@@ -1071,7 +1071,7 @@ body a:hover {
 
 .portfolio-text-holder .portfolio-category a {
   font-weight: 700;
-  color: #d7b065;
+  color: #bb9144;
   margin-right: 0;
 }
 
