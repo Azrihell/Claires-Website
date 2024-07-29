@@ -73,14 +73,7 @@ const Header = () => {
               exit={{ transform: `translateY(30px)` }}
               className="menu-holder"
             >
-              <div className="menu-left-part">
-                <div className="menu-left-text">
-                  Welcome to our online art journey. You can read our{" "}
-                  <Link href="/blog">thoughts</Link> or you can simply{" "}
-                  <Link href="/contact">write to us</Link>
-                </div>
-              </div>
-              <div className="menu-right-part">
+              <div className="menu-center-part">
                 <nav id="header-main-menu" className="big-menu">
                   {/* Nav Links */}
                   <ul className="main-menu sm sm-clean">
@@ -94,26 +87,26 @@ const Header = () => {
                     </li>
                     <li>
                       <Link
-                        href="/about"
-                        className={pathname === "/about" ? "current" : ""}
+                        href="/faire"
+                        className={pathname === "/faire" ? "current" : ""}
                       >
-                        About
+                        Faire
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href="/blog"
-                        className={pathname === "/blog" ? "current" : ""}
+                        href="/books"
+                        className={pathname === "/books" ? "current" : ""}
                       >
-                        Blog
+                        Books
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href="/gallery"
-                        className={pathname === "/gallery" ? "current" : ""}
+                        href="/merch"
+                        className={pathname === "/merch" ? "current" : ""}
                       >
-                        Gallery
+                        Merch
                       </Link>
                     </li>
                     <li>
@@ -124,6 +117,12 @@ const Header = () => {
                         Contact
                       </Link>
                     </li>
+                    <Link
+                        href="/characterpedia"
+                        className={pathname === "/" ? "current" : ""}
+                      >
+                        CharacterPedia
+                      </Link>
                   </ul>
                   <form role="search" className="search-form">
                     <label>
@@ -137,15 +136,6 @@ const Header = () => {
                     </label>
                   </form>
                 </nav>
-                <div className="menu-portfolio-category">
-                  <p className="portfolio-category">
-                    <Link href="">Architecture</Link>
-                    <Link href="">Branding</Link>
-                    <Link href="">Fashion</Link>
-                    <Link href="">Interior</Link>
-                    <Link href="">Jewelry</Link>
-                  </p>
-                </div>
               </div>
               <div className="clear"></div>
             </motion.div>

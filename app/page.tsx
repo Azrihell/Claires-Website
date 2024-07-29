@@ -10,13 +10,8 @@ import img01 from "@/assets/images/home/img_01.jpg";
 import img02 from "@/assets/images/home/img_02.jpg";
 import img03 from "@/assets/images/home/img_03.jpg";
 import img04 from "@/assets/images/home/img_04.jpg";
-import img05 from "@/assets/images/home/img_05.jpg";
-import img06 from "@/assets/images/home/img_06.jpg";
-import img07 from "@/assets/images/home/img_07.jpg";
-import img08 from "@/assets/images/home/img_08.jpg";
-import img09 from "@/assets/images/home/img_09.jpg";
-import img10 from "@/assets/images/home/img_10.jpg";
-import img11 from "@/assets/images/home/img_11.jpg";
+
+
 
 /**
  *
@@ -39,7 +34,7 @@ function Home() {
       {/* Page intro text */}
       <div className="content-1140 header-content center-relative block">
         <h1 className="entry-title">
-          Just thinking about <Link href="/about">New Mune Faire</Link> and all the wonders of the worlds.
+          Just thinking about <Link href="/faire">New Mune Faire</Link> and all the wonders of the worlds.
         </h1>
         <p className="page-desc">What's New and Exciting?</p>
       </div>
@@ -60,7 +55,7 @@ function Home() {
               <div className="portfolio-text-holder">
                 <div className="portfolio-info">
                   <Link className="portfolio-text" href="/single-portfolio">
-                    Trilogy
+                    New Mune Trilogy
                   </Link>
                   <p className="portfolio-category">
                     <Link href="">Books</Link>
@@ -149,14 +144,14 @@ function Home() {
               </Link>
               <div className="portfolio-text-holder">
                 <div className="portfolio-info">
-                  <Link className="portfolio-text" href="/single-portfolio">
-                    Bracelet
+                  <Link className="portfolio-text" href="/characterpedia">
+                    Characters
                   </Link>
                   <p className="portfolio-category">
-                    <Link href="">Jewelry</Link>
+                    <Link href="/characterpedia">Learn More</Link>
                   </p>
                   <p className="portfolio-arrow">
-                    <Link href="/single-portfolio">
+                    <Link href="/characterpedia">
                       <img src={arrow.src} alt="" />
                     </Link>
                   </p>
