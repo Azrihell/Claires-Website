@@ -35,13 +35,7 @@ function About() {
           </div>
           {/* Description text */}
           <div className="two_third last">
-            Why end might ask civil again spoil. She dinner she our horses
-            depend. Remember at children by reserved to vicinity. In affronting
-            unreserved delightful simplicity ye. Law own advantage furniture
-            continual sweetness bed agreeable perpetual. Oh song well four only
-            head busy it. Afford son she had lively living. Tastes lovers myself
-            too formal season our valley boy. Lived it their their walls might
-            to by young.
+            Claire is AMAZING!
             <br />
           </div>
           <div className="clear"></div>
@@ -101,7 +95,7 @@ function About() {
             <br />
           </div>
           {/* Progress bars */}
-          <div className="one_third last">
+          {/* <div className="one_third last">
             <div className="progress_bar">
               <div className="progress_bar_title">PHOTOSHOP</div>
               <div className="progress_bar_field_holder">
@@ -109,8 +103,8 @@ function About() {
                   className="progress_bar_field_perecent"
                   style={{ width: "70%" }}
                 ></div>
-              </div>
-            </div>
+              </div> */}
+            {/* </div>
             <div className="progress_bar">
               <div className="progress_bar_title">HTML/CSS</div>
               <div className="progress_bar_field_holder">
@@ -139,7 +133,7 @@ function About() {
               </div>
             </div>
           </div>
-          <div className="clear"></div>
+          <div className="clear"></div> */}
         </div>
       </div>
     </main>

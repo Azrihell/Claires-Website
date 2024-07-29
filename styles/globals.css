@@ -29,18 +29,18 @@ body {
   font-size: 17px;
   line-height: 35px;
   font-weight: 400;
-  color: #000;
-  background-color: #fff;
+  color: #ffffff;
+  background-color: #2e093f;
 }
 
 body a {
   text-decoration: none;
-  color: #000;
+  color: #ffffff;
   transition: color 0.2s linear;
 }
 
 body a:hover {
-  color: #d7b065;
+  color: #f1ac2c;
 }
 
 ::selection {
@@ -122,17 +122,17 @@ body a:hover {
 }
 
 .header-logo {
-  padding: 80px 0;
+  padding: 20px 0;
 }
 
 .header-logo img {
-  width: 70px;
+  width: 300px;
   -webkit-transition: opacity 0.3s linear;
   transition: opacity 0.3s linear;
 }
 
 .header-logo img:hover {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .toggle-holder {
@@ -606,7 +606,7 @@ body a:hover {
   cursor: pointer;
   border-bottom: 2px solid;
   padding: 10px 30px;
-  color: #000 !important;
+  color: #ffffff !important;
 }
 
 .more-posts-index:before {
@@ -652,7 +652,7 @@ body a:hover {
 ====================================== */
 
 .page .site-content {
-  color: #4b4b4b;
+  color: #ffffff;
 }
 
 .page h1.entry-title {
@@ -670,7 +670,7 @@ body a:hover {
 .page h1.entry-title a {
   position: relative;
   display: inline-block;
-  color: #d7b065;
+  color: #f0a313;
 }
 
 .page h1.entry-title a:after {
@@ -678,7 +678,7 @@ body a:hover {
   display: block;
   width: 0;
   height: 3px;
-  background-color: #d7b065;
+  background-color: #f0a313;
   transition: width 0.3s;
   position: absolute;
   left: 0;
@@ -724,7 +724,7 @@ body a:hover {
   font-size: 15px;
   line-height: 15px;
   font-style: italic;
-  color: #b4b4b4;
+  color: #ffffff;
   font-weight: 400;
 }
 
@@ -732,12 +732,14 @@ body a:hover {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 11px;
+  color: #ffffff;
   line-height: 18px;
   letter-spacing: 2px;
 }
 
 .testimonial-slider-holder {
   font-size: 24px;
+  color: #ffffff;
   line-height: 43px;
   max-width: 650px;
   margin: 0 auto;
@@ -753,7 +755,7 @@ body a:hover {
   right: -65px;
 }
 
-.progress_bar {
+/* .progress_bar {
   margin-bottom: 35px;
 }
 
@@ -782,7 +784,7 @@ body a:hover {
   top: 0;
   left: 0;
   background-color: #000;
-}
+} */
 
 /* ===================================
     5. Single Post CSS
@@ -1108,7 +1110,7 @@ body a:hover {
   border-bottom: 2px solid;
   font-size: 17px;
   line-height: 35px;
-  color: #000 !important;
+  color: #ffffff !important;
   cursor: pointer;
 }
 
