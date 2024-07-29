@@ -81,7 +81,7 @@ const Contact = () => {
     setServerState({ submitting: true });
     axios({
       method: "post",
-      url: "https://formspree.io/f/xgebyqqz", // user formspree endpoint
+      url: "https://formspree.io/f/mblrgnob", // user formspree endpoint
       data: formData,
     })
       .then((r) => {
