@@ -100,7 +100,7 @@ const Header = () => {
                       className="menu">
                         <span className="menuItem">Books</span>
                         <div className="dropdownContent">
-                          <Link href="/nmf" className="menuItems">New Mune Faire </Link>
+                          <Link href="/books/nmf" className="menuItems">New Mune Faire </Link>
                           <Link href="#" className="menuItems">Coloring Book</Link>
                           <Link href="#" className="menuItems">Coming Soon</Link>
                         </div>

@@ -36,7 +36,7 @@ function Home() {
         <h1 className="entry-title">
           Just thinking about <Link href="/faire">New Mune Faire</Link> and all the wonders of the worlds.
         </h1>
-        <p className="page-desc">What's New and Exciting?</p>
+        <p className="page-desc">Whats New and Exciting?</p>
       </div>
 
       <div id="content" className="site-content">
