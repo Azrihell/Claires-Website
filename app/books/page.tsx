@@ -48,7 +48,7 @@ function Blog() {
               </div>
               </div>
             <p className="read-more-arrow">
-              <Link href="./single">
+              <Link href="./nmf">
                 <img src={blogArrow.src} alt="Read More" />
               </Link>
             </p>
