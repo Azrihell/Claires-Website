@@ -24,7 +24,7 @@ function Blog() {
         >
           <div className="post-thumbnail">
             {/* Article Image */}
-            <Link href="./single">
+            <Link href="/">
               <img src={img01.src} alt="" />
             </Link>
           </div>

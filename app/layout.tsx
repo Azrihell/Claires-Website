@@ -12,16 +12,8 @@ import "@/styles/our-styles.css";
 // Types
 import type { Metadata } from "next";
 
-/*
-  about
-  blog (the quote is broken
-  gallery
-  contact 
-*/
 
-// --------------
-
-// Metadata of the website (used to inprove SEO of the website)
+// Metadata of the website (used to improve SEO of the website)
 export const metadata: Metadata = {
   title: "Opta - Minimal Portfolio and Photography Nextjs Template",
   description: "Claires Bookstore",

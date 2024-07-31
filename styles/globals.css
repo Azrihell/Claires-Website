@@ -17,7 +17,8 @@ version 1.2
         9.1 Gallery Single Post CSS
 10. Contact Page CSS
 11. Footer CSS
-12. Responsive CSS
+12. Dropdown CSS
+13. Responsive CSS
 -------------------------------------------------------------------*/
 
 /* ===================================
@@ -454,6 +455,54 @@ body a:hover {
 
 .slick-dots li.slick-active button:before {
   background-color: #d7b065;
+}
+
+/* dropdown */
+
+.menu {
+  display: inline-block;
+  position: relative;
+}
+
+.menuItem {
+  padding: 0px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.menuItems {
+  font-size: 25px !important;
+  font-weight: 300 !important;
+}
+
+.menuItem:hover {
+  background-color: none;
+}
+
+.dropdownContent, .submenuContent {
+  display: none;
+  position: relative;
+  background-color: none;
+  padding-top: 10px;
+  z-index: 1;
+  left: 0;
+  top: 100%;
+  min-width: 160px;
+}
+
+.submenu {
+  position: relative;
+}
+
+.submenu .submenuContent {
+  left: 100%;
+  top: 0;
+}
+
+.menu:hover .dropdownContent,
+.submenu:hover .submenuContent {
+  display: block;
 }
 
 /* ===================================

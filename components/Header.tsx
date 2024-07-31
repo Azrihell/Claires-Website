@@ -8,6 +8,7 @@ import Link from "next/link";
 // Images
 import logo from "@/assets/images/logo_@x2.png";
 
+
 // --------------
 
 const Header = () => {
@@ -94,11 +95,15 @@ const Header = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link
-                        href="/books"
-                        className={pathname === "/books" ? "current" : ""}
-                      >
-                        Books
+                      <Link 
+                      href="/books"
+                      className="menu">
+                        <span className="menuItem">Books</span>
+                        <div className="dropdownContent">
+                          <Link href="#" className="menuItems">New Mune Faire </Link>
+                          <Link href="#" className="menuItems">Coloring Book</Link>
+                          <Link href="#" className="menuItems">Book 2</Link>
+                        </div>
                       </Link>
                     </li>
                     <li>
