@@ -513,9 +513,9 @@ body a:hover {
 .post-num {
   font-family: "Playfair Display", serif;
   font-weight: 400;
-  font-size: 100px;
+  font-size: 80px;
   line-height: 100%;
-  margin-top: -30px;
+  margin-top: -14px;
 }
 
 /* .post-num span { */
@@ -541,7 +541,7 @@ body a:hover {
   line-height: 22px;
   text-transform: uppercase;
   padding-top: 40px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 .entry-info ul {
@@ -579,7 +579,7 @@ body a:hover {
   display: block;
   font-family: "Playfair Display", serif;
   font-weight: 400;
-  font-size: 44px;
+  font-size: 30px;
   line-height: 44px;
 }
 

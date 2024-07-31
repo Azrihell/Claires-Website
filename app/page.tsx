@@ -130,7 +130,7 @@ function Home() {
             viewport={{ once: true }}
             className="grid-item element-item quote-item "
           >
-            Mysterious Quote from amazing book.
+            This can be text linking to something... probably merch or the faire stuff.
           </motion.li>
           <motion.li
             initial={{ opacity: 0, transform: `translateY(50px)` }}

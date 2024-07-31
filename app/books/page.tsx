@@ -31,39 +31,22 @@ function Blog() {
           <div className="entry-holder">
             {/* Article number */}
             <div className="post-num">
-              <span className="current-post">1</span>
-              <span className="separator">/</span>
-              <span className="total-posts">3</span>
-            </div>
-            {/* Some External Links */}
-            <div className="entry-info">
-              <div className="entry-info-left">
-                <div className="cat-links">
-                  <ul>
-                    <li>
-                      <Link href="">Blog</Link>
-                    </li>
-                  </ul>
-                </div>
-                <div className="entry-date published">February 2, 2017</div>
-              </div>
-              <div className="entry-info-right">
-                <div className="num-comments">
-                  <Link href="">3 Comments</Link>
-                </div>
-                <div className="author-nickname">
-                  <Link href="" title="Posts by Peter Wall">
-                    Peter Wall
-                  </Link>
-                </div>
-              </div>
+              <span className="current-post">New Mune Faire</span>
             </div>
             {/* Blog title */}
             <h2 className="entry-title">
-              <Link href="./single">
-                Retro fashion glasses for everyday use
-              </Link>
+              <a href="https://www.amazon.com/New-Mune-Faire-Trilogy-Book-ebook/dp/B0D8RYH15Q/ref=sr_1_1?crid=2M6PP2I2KISJ5&dib=eyJ2IjoiMSJ9.v3SVCnsJ7qfdk4KD_J_lAw.oke-1t1Ru3z1svPxux1Hj7uw0oLL1IRa2Gborgr5Xn8&dib_tag=se&keywords=new%20mune%20faire&qid=1721590864&sprefix=new%20mune%20fair%2Caps%2C97&sr=8-1" target="_blank" rel="noopener noreferrer">
+                Read on Kindle 
+              </a>
             </h2>
+             {/* Some External Links */}
+             <div className="entry-info">
+              <div className="entry-info-left">
+                <div className="cat-links">
+                </div>
+                <div className="entry-date published">Learn More</div>
+              </div>
+              </div>
             <p className="read-more-arrow">
               <Link href="./single">
                 <img src={blogArrow.src} alt="Read More" />
