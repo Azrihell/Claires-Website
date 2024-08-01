@@ -15,7 +15,7 @@ import type { Metadata } from "next";
 
 // Metadata of the website (used to improve SEO of the website)
 export const metadata: Metadata = {
-  title: "Opta - Minimal Portfolio and Photography Nextjs Template",
+  title: "Claires Website!",
   description: "Claires Bookstore",
   keywords: ["HTML", "CSS", "Javascript", "Typescript", "React", "nextjs"],
   authors: [

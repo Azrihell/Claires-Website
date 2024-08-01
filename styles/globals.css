@@ -277,6 +277,10 @@ body a:hover {
   cursor: auto;
 }
 
+.main-menu-sm {
+  text-align: center;
+}
+
 .main-menu.sm-clean {
   background-color: transparent;
 }
