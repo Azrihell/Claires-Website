@@ -1,8 +1,7 @@
 import Link from "next/link";
 
 // Images
-import footerLogo from "@/assets/images/footer_logo_@x2.png";
-
+import logo from "@/assets/images/logo_@x2.png";
 // ----------
 
 const Footer = () => {
@@ -12,7 +11,7 @@ const Footer = () => {
         {/* Your Contact links */}
         <div className="footer-logo">
           <Link href="/">
-            <img src={footerLogo.src} alt="Opta" />
+            <img src={logo.src} alt="Opta" />
           </Link>
         </div>
         <div className="footer-text">
@@ -23,51 +22,34 @@ const Footer = () => {
             or can use our <Link href="/contact">contact form</Link> as well
           </p>
         </div>
-        <div className="our-position-holder">
-          <div className="our-position-left">
-            <p className="position-lat">
-              <Link href="https://goo.gl/Iuqj8E" target="_blank">
-                40.758896° N
-              </Link>
-            </p>
-          </div>
-          <div className="our-position-right">
-            <p className="position-lng">
-              <Link href="https://goo.gl/Iuqj8E" target="_blank">
-                -73.985130° W
-              </Link>
-            </p>
-          </div>
-        </div>
 
         <ul id="footer-sidebar">
           <li className="widget widget_text">
-            <h4 className="widgettitle">Opta</h4>
+            <h4 className="widgettitle">Writing From</h4>
             {/* Contact Info */}
             <div className="textwidget">
-              <p>235 Fifth Avenue, 27th fl. NY, US</p>
+              <p>Dallas TX, USA</p>
               <p>Phone: +123.456.789</p>
-              <p>Mobile: +123.456.789</p>
               <p>Email: hello@yoursite.com</p>
             </div>
           </li>
           {/* Recent Blog Articles */}
           <li className="widget widget_recent_entries">
-            <h4 className="widgettitle">Recent Posts</h4>
+            <h4 className="widgettitle">Check It Out!</h4>
             <ul>
               <li>
-                <Link href="/blog/single">
-                  Retro fashion glasses for everyday use
+                <Link href="/books/nmf">
+                  New Mune Faire
                 </Link>
               </li>
               <li>
-                <Link href="/blog/single">
-                  The best handcrafted wooden office table
+                <Link href="/books/coloringbook">
+                  Coloring Book
                 </Link>
               </li>
               <li>
-                <Link href="/blog/single">
-                  Do it yourself white print art frame
+                <Link href="/books/comingsoon">
+                  Whats Coming Soon?
                 </Link>
               </li>
             </ul>
@@ -76,11 +58,11 @@ const Footer = () => {
           <li className="widget widget_tag_cloud">
             <h4 className="widgettitle">Category</h4>
             <div className="tagcloud">
-              <Link href="">Architecture</Link>
-              <Link href="">Branding</Link>
-              <Link href="">Fashion</Link>
-              <Link href="">Interior</Link>
-              <Link href="">Jewelry</Link>
+              <Link href="/books">Books</Link>
+              <Link href="/merch">Merch</Link>
+              <Link href="/faire">Faire</Link>
+              <Link href="characterpedia">CharacterPedia</Link>
+              <Link href="contact">Contact</Link>
             </div>
           </li>
         </ul>
@@ -88,13 +70,13 @@ const Footer = () => {
         {/* Coptright and social links */}
         <ul className="copyright-holder">
           <li className="copyright-footer">
-            © {new Date(Date.now()).getFullYear()} - COCO + BASIC
+            © {new Date(Date.now()).getFullYear()} - AzCraftsCode
           </li>
           <li className="social-footer">
             <Link href="https://twitter.com/">TWITTER</Link>
             <Link href="https://www.facebook.com/">FACEBOOK</Link>
             <Link href="https://www.instagram.com/">INSTAGRAM</Link>
-            <Link href="https://www.behance.net/">BEHANCE</Link>
+            <Link href="https://home.dorian.live/">DORIAN.LIVE</Link>
           </li>
         </ul>
       </div>
