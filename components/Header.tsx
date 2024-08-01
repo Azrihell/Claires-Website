@@ -114,6 +114,12 @@ const Header = () => {
                         Merch
                       </Link>
                     </li>
+                    <Link
+                        href="/characterpedia"
+                        className={pathname === "/" ? "current" : ""}
+                      >
+                        CharacterPedia
+                      </Link>
                     <li>
                       <Link
                         href="/contact"
@@ -122,12 +128,7 @@ const Header = () => {
                         Contact
                       </Link>
                     </li>
-                    <Link
-                        href="/characterpedia"
-                        className={pathname === "/" ? "current" : ""}
-                      >
-                        CharacterPedia
-                      </Link>
+                    
                   </ul>
                   <form role="search" className="search-form">
                     <label>
