@@ -27,9 +27,16 @@ const Gallery = () => {
       <div id="content" className="site-content">
         {/* Description text */}
         <div className="content-945 center-relative">
-          <div className="one_third">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            posuere lobortis ante sit amet egestas.
+          <div className="one_third menu">
+          <span className="menuItem">MERCH</span>
+                        <div className="dropdownContent">
+                          <Link href="#" className="menuItems">Hat </Link> <br/>
+                          <Link href="#" className="menuItems">Shirt</Link> <br/>
+                          <Link href="#" className="menuItems">Socks</Link> <br/>
+                          <Link href="#" className="menuItems">Iron-On Patch</Link> <br/>
+                          <Link href="#" className="menuItems">Map Poster</Link><br/>
+                          <Link href="#" className="menuItems">Coming Soon</Link>
+                        </div>
           </div>
           <div className="two_third last">
             Lacus venenatis Sed eu, imperdiet tellus congue, porttitor dolor. A
@@ -61,25 +68,25 @@ const Gallery = () => {
             <SwiperSlide className="gallery-item">
               <img src={img01.src} alt="" />
               <p className="item-text">
-                <Link href="./single-gallery">One More Time</Link>
+                <Link href="./single-gallery">T Shirt</Link>
               </p>
             </SwiperSlide>
             <SwiperSlide className="gallery-item">
               <img src={img02.src} alt="" />
               <p className="item-text">
-                <Link href="./single-gallery">Reminiscences from Paris</Link>
+                <Link href="./single-gallery">Iron-On Patch</Link>
               </p>
             </SwiperSlide>
             <SwiperSlide className="gallery-item">
               <img src={img03.src} alt="" />
               <p className="item-text">
-                <Link href="./single-gallery">Bottle of Life</Link>
+                <Link href="./single-gallery">Mug</Link>
               </p>
             </SwiperSlide>
             <SwiperSlide className="gallery-item">
               <img src={img04.src} alt="" />
               <p className="item-text">
-                <Link href="./single-gallery">Made With Love</Link>
+                <Link href="./single-gallery">Poetry Book</Link>
               </p>
             </SwiperSlide>
             <div className="swiper-button-prev">

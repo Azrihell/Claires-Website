@@ -32,7 +32,7 @@ function Home() {
   return (
     <main className="page">
       {/* Page intro text */}
-      <div className="content-1140 header-content center-relative block">
+      <div className="content-1140 header-content center-relative block ">
         <h1 className="entry-title">
           Just thinking about <Link href="/faire">New Mune Faire</Link> and all the wonders of the worlds.
         </h1>

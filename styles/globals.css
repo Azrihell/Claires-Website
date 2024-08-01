@@ -626,7 +626,7 @@ body a:hover {
 
 .blog-item-holder h2.entry-title {
   display: block;
-  font-family: "Playfair Display", serif;
+  font-family: "Platypi", serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 44px;
@@ -705,7 +705,7 @@ body a:hover {
 }
 
 .page h1.entry-title {
-  font-family: "Playfair Display", serif;
+  font-family: "Metamorphous", serif;
   font-size: 47px;
   line-height: 60px;
   font-weight: 400;
@@ -739,8 +739,8 @@ body a:hover {
 }
 
 .page-desc {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-family: "Platypi", serif;
+  font-weight: 300;
   font-size: 11px;
   line-height: 15px;
   text-align: center;
