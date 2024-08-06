@@ -750,6 +750,7 @@ body, ul {
 .item-wrapper {
   display: inline-block;
   position: relative;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.30);
 }
 
 .grid-item {

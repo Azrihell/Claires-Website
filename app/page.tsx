@@ -6,7 +6,7 @@ import Link from "next/link";
 
 // Images
 import arrow from "@/assets/images/opta_arrow@2x.png";
-import img01 from "@/assets/images/home/img_01.jpg";
+import NMF1 from "@/assets/images/home/NMF1.png";
 import img02 from "@/assets/images/home/img_02.jpg";
 import img03 from "@/assets/images/home/img_03.jpg";
 import img04 from "@/assets/images/home/img_04.jpg";
@@ -32,7 +32,7 @@ function Home() {
   return (
     <main className="page">
       {/* Page intro text */}
-      <div className="content-1140 header-content center-relative block ">
+      <div className="content-1140 header-content center-relative block">
         <h1 className="entry-title">
           Just thinking about <Link href="/faire">New Mune Faire</Link> and all the wonders of the worlds.
         </h1>
@@ -49,8 +49,8 @@ function Home() {
             className="grid-item element-item "
           >
             <div className="item-wrapper">
-              <Link href="/single-portfolio">
-                <img src={img01.src} alt="" />
+              <Link href="/nmf">
+                <img src={NMF1.src} alt="New Mune Faire Book One" />
               </Link>
               <div className="portfolio-text-holder">
                 <div className="portfolio-info">
