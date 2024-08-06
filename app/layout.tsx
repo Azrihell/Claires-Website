@@ -15,7 +15,7 @@ import type { Metadata } from "next";
 
 // Metadata of the website (used to improve SEO of the website)
 export const metadata: Metadata = {
-  title: "Claires Website!",
+  title: "New Mune Faire",
   description: "Claires Bookstore",
   keywords: ["HTML", "CSS", "Javascript", "Typescript", "React", "nextjs"],
   authors: [
