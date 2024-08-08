@@ -7,7 +7,7 @@ import Link from "next/link";
 // Images
 import arrow from "@/assets/images/opta_arrow@2x.png";
 import NMF1 from "@/assets/images/home/NMF1.png";
-import img02 from "@/assets/images/home/img_02.jpg";
+import ColorBook from "@/assets/images/home/ColorBook.jpg";
 import img03 from "@/assets/images/home/img_03.jpg";
 import img04 from "@/assets/images/home/img_04.jpg";
 
@@ -49,20 +49,20 @@ function Home() {
             className="grid-item element-item "
           >
             <div className="item-wrapper">
-              <Link href="/nmf">
+              <Link href="/books/nmf">
                 <img src={NMF1.src} alt="New Mune Faire Book One" />
               </Link>
               <div className="portfolio-text-holder">
                 <div className="portfolio-info">
-                  <Link className="portfolio-text" href="/single-portfolio">
+                  <Link className="portfolio-text" href="/books/nmf">
                     New Mune Trilogy
                   </Link>
                   <p className="portfolio-category">
-                    <Link href="">Books</Link>
+                    <Link href="/books">Books</Link>
                   </p>
                   <p className="portfolio-arrow">
-                    <Link href="/single-portfolio">
-                      <img src={arrow.src} alt="" />
+                    <Link href="/books/nmf">
+                      <img src={arrow.src} alt="go to books page" />
                     </Link>
                   </p>
                 </div>
@@ -77,7 +77,7 @@ function Home() {
           >
             <div className="item-wrapper">
               <Link href="/single-portfolio">
-                <img src={img02.src} alt="" />
+                <img src={ColorBook.src} alt="Coloring Book" />
               </Link>
               <div className="portfolio-text-holder">
                 <div className="portfolio-info">
