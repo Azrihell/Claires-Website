@@ -110,8 +110,70 @@ body a:hover {
   height: auto;
 }
 
+
 /* ===================================
-    1.1 Global Header Logo/Menu CSS
+    1.1 Pop Up CSS
+====================================== */
+
+
+.popup {
+  position: fixed;
+  bottom: 40%;
+  right: 20px;
+  width: 300px;
+  padding: 15px;
+  background-color: #0e351a;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.atBottom {
+  position: absolute;
+  bottom: 100px; /* Adjust this value as needed */
+  transform: translateY(-100%);
+}
+
+.popuptext {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  letter-spacing: 2px;
+  line-height: 22px;
+}
+
+.abouttext {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 22px;
+}
+
+/* Adjust for screens smaller than 768px */
+@media (max-width: 768px) {
+  .popup {
+    width: 90%; /* Make the pop-up width responsive */
+    bottom: 10px; /* Adjust the position */
+    right: 5%; /* Center it more on smaller screens */
+    padding: 10px; /* Adjust padding */
+  }
+}
+
+/* Adjust for screens smaller than 480px (small phones) */
+@media (max-width: 480px) {
+  .popup {
+    width: 95%; /* Further adjust the width */
+    bottom: 5px; /* Adjust the position */
+    right: 2.5%; /* Center it more on small screens */
+    padding: 8px; /* Adjust padding */
+    font-size: 14px; /* Adjust font size for readability */
+  }
+}
+
+
+/* ===================================
+    1.2 Global Header Logo/Menu CSS
 ====================================== */
 
 /* Basic reset */

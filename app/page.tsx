@@ -3,6 +3,7 @@ import { useState } from "react";
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import StickyPopup from "@/components/Popup";
 
 // Images
 import arrow from "@/assets/images/opta_arrow@2x.png";
@@ -30,6 +31,7 @@ function Home() {
   };
 
   return (
+    
     <main className="page">
       {/* Page intro text */}
       <div className="content-1140 header-content center-relative block">
@@ -38,6 +40,8 @@ function Home() {
         </h1>
         <p className="page-desc">Whats New and Exciting?</p>
       </div>
+
+      <div> <StickyPopup /> </div>
 
       <div id="content" className="site-content">
         {/* Portfolio items */}
@@ -76,19 +80,19 @@ function Home() {
             className="grid-item element-item "
           >
             <div className="item-wrapper">
-              <Link href="/single-portfolio">
+              <Link href="/books/colorbook">
                 <img src={ColorBook.src} alt="Coloring Book" />
               </Link>
               <div className="portfolio-text-holder">
                 <div className="portfolio-info">
-                  <Link className="portfolio-text" href="/single-portfolio">
+                  <Link className="portfolio-text" href="/books/colorbook">
                     Coloring Book
                   </Link>
                   <p className="portfolio-category">
-                    <Link href="">Books</Link>
+                    <Link href="/books">Books</Link>
                   </p>
                   <p className="portfolio-arrow">
-                    <Link href="/single-portfolio">
+                    <Link href="/books/colorbook">
                       <img src={arrow.src} alt="" />
                     </Link>
                   </p>
