@@ -134,7 +134,7 @@ function Home() {
             viewport={{ once: true }}
             className="grid-item element-item quote-item "
           >
-            This can be text linking to something... probably merch or the faire stuff.
+            See what started it all
           </motion.li>
           <motion.li
             initial={{ opacity: 0, transform: `translateY(50px)` }}
@@ -143,8 +143,8 @@ function Home() {
             className="grid-item element-item "
           >
             <div className="item-wrapper">
-              <Link href="/single-portfolio">
-                <img src={img04.src} alt="" />
+              <Link href="/characterpedia">
+                <img src={img04.src} alt="Go to CharacterPedias" />
               </Link>
               <div className="portfolio-text-holder">
                 <div className="portfolio-info">
@@ -156,7 +156,7 @@ function Home() {
                   </p>
                   <p className="portfolio-arrow">
                     <Link href="/characterpedia">
-                      <img src={arrow.src} alt="" />
+                      <img src={arrow.src} alt="Go to CharacterPedias" />
                     </Link>
                   </p>
                 </div>

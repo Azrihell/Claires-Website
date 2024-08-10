@@ -1090,6 +1090,20 @@ body, ul {
   max-width: 580px;
 }
 
+p.abouttext {
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 40px;
+  max-width: 680px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  border-radius: 50px;
+  padding: 5px 20px;
+}
+
 .single-gallery .entry-content {
   padding-top: 50px;
 }
