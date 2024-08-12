@@ -39,7 +39,7 @@ const Footer = () => {
             <ul>
               <li>
                 <Link href="/books/nmf">
-                  Hazi`s Haven
+                  Hazi's Haven
                 </Link>
               </li>
               <li>
