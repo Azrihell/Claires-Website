@@ -1293,7 +1293,7 @@ footer ul {
 }
 
 .footer-logo {
-  padding-bottom: 130px;
+  padding-bottom: 100px;
   position: relative;
   width: 70px;
   height: 70px;
@@ -1319,7 +1319,7 @@ footer ul {
 
 .footer-first-line {
   font-family: "Playfair Display", serif;
-  font-size: 47px;
+  font-size: 40px;
   line-height: 60px;
 }
 
@@ -1393,18 +1393,18 @@ ul#footer-sidebar:after {
 
 ul#footer-sidebar {
   padding: 30px 0;
-  font-size: 14px;
-  line-height: 28px;
+  font-size: 24px;
+  line-height: 32px;
   border-bottom: 2px solid #1a1a1a;
 }
 
 h4.widgettitle {
-  font-size: 16px;
+  font-size: 30px;
   font-family: "Playfair Display", serif;
 }
 
 .tagcloud a {
-  font-size: 14px !important;
+  font-size: 24px !important;
   display: block;
 }
 
@@ -1414,7 +1414,7 @@ h4.widgettitle {
 
 .widget_recent_entries span.post-date {
   display: block;
-  font-size: 12px;
+  font-size: 24px;
   line-height: 100%;
   margin-bottom: 20px;
 }
@@ -1422,7 +1422,7 @@ h4.widgettitle {
 ul.copyright-holder {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 ul.copyright-holder:after {

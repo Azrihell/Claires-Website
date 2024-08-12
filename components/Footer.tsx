@@ -39,7 +39,7 @@ const Footer = () => {
             <ul>
               <li>
                 <Link href="/books/nmf">
-                  New Mune Faire
+                  Hazi's Haven
                 </Link>
               </li>
               <li>
@@ -73,7 +73,7 @@ const Footer = () => {
             © {new Date(Date.now()).getFullYear()} - AzCraftsCode
           </li>
           <li className="social-footer">
-            <Link href="https://twitter.com/">TWITTER</Link>
+            <Link href="https://www.patreon.com/newmunefaire">PATREON</Link>
             <Link href="https://www.facebook.com/">FACEBOOK</Link>
             <Link href="https://www.instagram.com/">INSTAGRAM</Link>
             <Link href="https://home.dorian.live/">DORIAN.LIVE</Link>
