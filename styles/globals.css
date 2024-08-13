@@ -26,8 +26,8 @@ version 1.2
 ====================================== */
 
 body {
-  font-family: "Roboto", serif;
-  font-size: 17px;
+  font-family: "Platypi", serif;
+  font-size: 22px;
   line-height: 35px;
   font-weight: 400;
   color: #ffffff;
@@ -118,7 +118,7 @@ body a:hover {
 
 .popup {
   position: fixed;
-  bottom: 40%;
+  bottom:30%;
   right: 20px;
   width: 300px;
   padding: 15px;
@@ -135,17 +135,17 @@ body a:hover {
 }
 
 .popuptext {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 19px;
-  letter-spacing: 2px;
+  font-family: "Metamorphous", serif;
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 1px;
   line-height: 22px;
 }
 
 .abouttext {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
+  font-family: "Platypi", serif;
+  font-weight: 500;
+  font-size: 16px;
   letter-spacing: 2px;
   line-height: 22px;
 }
@@ -334,7 +334,7 @@ body, ul {
 }
 
 .entry-info {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Metamorphous", serif;
   font-weight: 700;
   font-size: 11px;
   letter-spacing: 2px;
@@ -595,7 +595,7 @@ body, ul {
 }
 
 .single h1.entry-title {
-  font-family: "Playfair Display", serif;
+  font-family: "Platypi", serif;
   font-weight: 400;
   color: #000;
   font-size: 60px;
@@ -630,7 +630,7 @@ body, ul {
 }
 
 .tags-holder {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Platypi", serif;
   margin: 50px 0;
   display: inline-block;
 }
@@ -692,14 +692,14 @@ body, ul {
 }
 
 .nav-links p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Platypi", serif;
   font-weight: 700;
   font-size: 11px;
 }
 
 .nav-previous a,
 .nav-next a {
-  font-family: "Playfair Display", serif;
+  font-family: "Platypi", serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 35px;
@@ -749,7 +749,7 @@ body, ul {
 ====================================== */
 
 .search .search-title h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "Platypi", serif;
   font-weight: 400;
   border-bottom: 2px solid;
   display: inline-block;
@@ -775,7 +775,7 @@ body, ul {
 }
 
 .grid-item.quote-item {
-  font-family: "Playfair Display", serif;
+  font-family: "Metamorphous", serif;
   width: 400px;
   font-size: 40px;
   line-height: 60px;
@@ -783,7 +783,7 @@ body, ul {
 }
 
 .grid-item.quote-item:before {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Metamorphous", serif;
   font-weight: 700;
   display: block;
   content: "\201C";
@@ -857,8 +857,8 @@ body, ul {
 } */
 
 .portfolio-text-holder .portfolio-text {
-  font-family: "Playfair Display", serif;
-  font-size: 36px;
+  font-family: "Metamorphous", serif;
+  font-size: 40px;
   line-height: 100%;
 }
 
@@ -871,6 +871,7 @@ body, ul {
 }
 
 .portfolio-text-holder .portfolio-category a {
+  font-family: "Platypi", serif;
   font-weight: 700;
   color: #bb9144;
   margin-right: 0;
@@ -1055,7 +1056,7 @@ body, ul {
 }
 
 .carousel-slider .gallery-item .item-text a {
-  font-family: "Playfair Display", serif;
+  font-family: "Metamorphous", serif;
   font-weight: 400;
   font-size: 40px;
   line-height: 45px;
@@ -1077,7 +1078,7 @@ body, ul {
 ====================================== */
 
 .single-gallery h1.entry-title {
-  font-family: "Playfair Display", serif;
+  font-family: "Metamorphous", serif;
   font-weight: 400;
   font-size: 60px;
   line-height: 60px;
@@ -1087,8 +1088,8 @@ body, ul {
 }
 
 p.abouttext {
-  font-family: "Playfair Display", serif;
-  font-weight: 300;
+  font-family: "Metamorphous", serif;
+  font-weight: 400;
   font-size: 20px;
   line-height: 40px;
   max-width: 680px;
