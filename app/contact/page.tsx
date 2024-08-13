@@ -132,7 +132,7 @@ const Contact = () => {
                   type="email"
                   name="email"
                   placeholder="Email"
-                  pattern="(?=.*[a-zA-Z])[a-zA-Z0-9]+@[a-zA-Z]+\.[a-zA-Z]{2,}"
+                  pattern="(?=.*[\w\.\-\?\$!#]+@[a-zA-Z0-9\-]+\.[a-zA-Z]{2,}"
                   required
                   value={formData["email"]}
                   onChange={handleDataChange}
