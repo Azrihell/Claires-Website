@@ -98,13 +98,10 @@ const Contact = () => {
         <div className="content-945 center-relative">
           {/* Contact Page description text */}
           <div className="one_third">
-            <h2 className="big-text">Hello, drop us a line or two</h2>
+            
           </div>
-          <div className="two_third last">
-            Why end might ask civil again spoil. She dinner she our horses
-            depend. Remember at children by reserved to vicinity. In affronting
-            unreserved delightful simplicity ye. Law own advantage furniture
-            continual sweetness bed agreeable perpetual.
+          <div className="big-text two_third last">
+            Hello! Need Something?
           </div>
           <div className="clear"></div>
           <br />
@@ -112,15 +109,7 @@ const Contact = () => {
           {/* Contact Informations and links */}
           <div className="one_third">
             <div className="info-code">
-              <p className="info-code-title">Phone</p>
-              <p className="info-code-content">+123.456.789</p>
-            </div>
-            <div className="info-code">
-              <p className="info-code-title">Skype</p>
-              <p className="info-code-content">DONEC.SIT.AMET</p>
-            </div>
-            <div className="info-code">
-              <p className="info-code-title">Email</p>
+              <p className="info-code-title">EMAIL</p>
               <p className="info-code-content">HELLO@YOURSITE.COM</p>
             </div>
           </div>

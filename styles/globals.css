@@ -521,17 +521,19 @@ body, ul {
 }
 
 .info-code-title {
-  font-size: 15px;
+  font-family: "Metamorphous", serif;
+  font-size: 20px;
   line-height: 15px;
   font-style: italic;
   color: #ffffff;
   font-weight: 400;
+  padding-bottom: 15px;
 }
 
 .info-code-content {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Platypi", serif;
   font-weight: 700;
-  font-size: 11px;
+  font-size: 16px;
   color: #ffffff;
   line-height: 18px;
   letter-spacing: 2px;
@@ -1110,10 +1112,10 @@ p.abouttext {
 ====================================== */
 
 .big-text {
-  font-family: "Playfair Display", serif;
-  font-size: 46px;
+  font-family: "Metamorphous", serif;
+  font-size: 44px;
   line-height: 50px;
-  color: #000;
+  color: #ffffff;
   padding: 0;
   font-weight: 400;
 }
@@ -1122,24 +1124,24 @@ p.abouttext {
   max-width: 100%;
   width: 770px;
   margin: 0 auto;
-  font-size: 22px;
-  color: #4b4b4b;
+  font-size: 25px;
+  color: #ffffff;
 }
 
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
-  color: #4b4b4b;
+  color: #000000;
   border: 0;
   border-bottom: 1px solid;
   height: 28px;
   font-size: 18px;
   line-height: 25px;
-  font-family: "Roboto", serif;
+  font-family: "Platypi", serif;
   font-weight: 300;
   width: 100%;
   padding: 0;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 .contact-form textarea {
   resize: vertical;
@@ -1148,8 +1150,8 @@ p.abouttext {
 .contact-form input[type="text"]::-webkit-input-placeholder,
 .contact-form input[type="email"]::-webkit-input-placeholder,
 .contact-form textarea::-webkit-input-placeholder {
-  font-family: "Roboto", serif;
-  color: #4b4b4b;
+  font-family: "Platypi", serif;
+  color: #000000;
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
@@ -1157,8 +1159,8 @@ p.abouttext {
 .contact-form input[type="text"]::-moz-placeholder,
 .contact-form input[type="email"]::-moz-placeholder,
 .contact-form textarea::-moz-placeholder {
-  font-family: "Roboto", serif;
-  color: #4b4b4b;
+  font-family: "Platypi", serif;
+  color: #000000;
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
@@ -1167,8 +1169,8 @@ p.abouttext {
 .contact-form input[type="text"]:-ms-input-placeholder,
 .contact-form input[type="email"]:-ms-input-placeholder,
 .contact-form textarea:-ms-input-placeholder {
-  font-family: "Roboto", serif;
-  color: #4b4b4b;
+  font-family: "Platypi", serif;
+  color: #000000;
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
@@ -1176,8 +1178,8 @@ p.abouttext {
 .contact-form input[type="text"]:-moz-placeholder,
 .contact-form input[type="email"]:-moz-placeholder,
 .contact-form textarea:-moz-placeholder {
-  font-family: "Roboto", serif;
-  color: #4b4b4b;
+  font-family: "Platypi", serif;
+  color: #000000;
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
@@ -1216,8 +1218,9 @@ p.abouttext {
   padding: 10px 0px;
   cursor: pointer;
   background: transparent;
-  font-family: "Roboto", serif;
+  font-family: "Metamorphous", serif;
   font-weight: 300;
+  color: #ffffff;
   width: 100%;
   font-size: 18px;
   border: 0;
