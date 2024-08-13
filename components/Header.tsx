@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
@@ -10,7 +11,12 @@ import logo from "@/assets/images/logo_@x2.png";
 // --------------
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
 
   return (
     <div className="header-holder center-relative relative content-1140">
@@ -20,7 +26,11 @@ const Header = () => {
         </Link>
       </div>
 
-      <div className="menu-holder">
+      <button className="menu-toggle-button" onClick={toggleMenu}>
+        ☰ {/* Unicode character for a menu icon (hamburger menu) */}
+      </button>
+
+      <div className={`menu-holder ${menuOpen ? "open" : ""}`}>
         <nav id="header-main-menu">
           <ul className="main-menu">
             <li>
@@ -56,13 +66,14 @@ const Header = () => {
                 Contact
               </Link>
             </li>
-            <li><form role="search" className="search-form">
+            <li>
+              <form role="search" className="search-form">
                 <label>
                   <input type="search" className="search-field" placeholder="Search" name="search" title="Search for:" />
                 </label>
               </form>
             </li>
-          </ul>  
+          </ul>
         </nav>
       </div>
     </div>

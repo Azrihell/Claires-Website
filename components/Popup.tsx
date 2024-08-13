@@ -1,9 +1,29 @@
 import React, { useEffect, useState } from 'react';
 
 
+
 const StickyPopup = () => {
   const [isAtBottom, setIsAtBottom] = useState(false);
   const [isVisible, setIsVisible] = useState(true); // Control visibility
+  const [isLargeScreen, setIsLargeScreen] = useState(true); // Track screen size
+  const [headerHeight, setHeaderHeight] = useState(0); // Track header height
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsLargeScreen(window.innerWidth > 1068); // Adjust this breakpoint as needed
+      const header = document.querySelector('header');
+      if (header) {
+        setHeaderHeight(header.offsetHeight);
+      }
+    };
+
+    handleResize();
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,18 +39,22 @@ const StickyPopup = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    if (isLargeScreen) {
+      window.addEventListener('scroll', handleScroll);
+    }
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      if (isLargeScreen) {
+        window.removeEventListener('scroll', handleScroll);
+      }
     };
-  }, []);
+  }, [isLargeScreen]);
 
   const handleClose = () => {
     setIsVisible(false);
   };
 
-  if (!isVisible) return null; // Don't render if not visible
+  if (!isLargeScreen || !isVisible) return null; // Don't render if on a small screen or not visible
 
   return (
     <div className={`popup ${isAtBottom ? 'atBottom' : ''}`}>
