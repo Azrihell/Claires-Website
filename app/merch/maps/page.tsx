@@ -10,7 +10,7 @@ import img03 from "@/assets/images/gallery/img_01_large.jpg";
 
 // ------------------
 
-const SingleGallery = () => {
+const Map = () => {
   return (
     <main className="single single-gallery">
       <div id="content" className="site-content">
@@ -82,4 +82,4 @@ const SingleGallery = () => {
   );
 };
 
-export default SingleGallery;
+export default Map;

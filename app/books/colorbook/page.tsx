@@ -1,161 +1,99 @@
 "use client";
 
-import { motion } from "framer-motion";
 import Link from "next/link";
 
+// Swiper
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay, Pagination } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/effect-fade";
+import "swiper/css/navigation";
+
 // Images
-import blogArrow from "@/assets/images/blog/blog_arrow@2x.png";
-import img01 from "@/assets/images/blog/blog_img_01.jpg";
-import img02 from "@/assets/images/blog/blog_img_02.jpg";
-import img03 from "@/assets/images/blog/blog_img_03.jpg";
+import rightArrow from "@/assets/images/opta_arrow@2x.png";
+import leftArrow from "@/assets/images/opta_arrow@2x_left.png";
+import img01 from "@/assets/images/gallery/about_img-1024x440.jpg";
+import img02 from "@/assets/images/gallery/img_06_large-1024x539.jpg";
+import img03 from "@/assets/images/gallery/gallery_img.jpg";
+import img04 from "@/assets/images/gallery/img_01_large-1024x539.jpg";
 
-// ------------
+// ------------------
 
-function Blog() {
+const Colorbook = () => {
   return (
     <main className="page">
-      <div className="blog-holder block center-relative content-1140">
-        {/* Article Body */}
-        <motion.article
-          initial={{ opacity: 0, transform: `translateY(50px)` }}
-          whileInView={{ opacity: 1, transform: `translateY(0px)` }}
-          viewport={{ once: true }}
-          className="animate relative blog-item-holder center-relative has-post-thumbnail"
-        >
-          <div className="post-thumbnail">
-            {/* Article Image */}
-            <Link href="/">
+      <div id="content" className="site-content">
+        {/* Description text */}
+        <div className="content-945 center-relative">
+          <div className="one_third">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            posuere lobortis ante sit amet egestas.
+          </div>
+          <div className="two_third last">
+            Lacus venenatis Sed eu, imperdiet tellus congue, porttitor dolor. A
+            great man, but of the living creature was brought about by the
+            Aenean hendrerit lorem. In malesuada eu nulla sit amet aliquam.
+            Etiam faucibus iaculis justo, tempor est quis, tempus orci. Donec
+            nec sapien euismod accumsan nisl eget, rhoncus erat.
+          </div>
+          <div className="clear"></div>
+          <br />
+          <br />
+        </div>
+        {/* Gallery Items Slider */}
+        <div className="full-page-width center-relative">
+          <Swiper
+            navigation={{
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            }}
+            loop={true}
+            slidesPerView={"auto"}
+            centeredSlides={true}
+            spaceBetween={100}
+            autoplay={true}
+            speed={1250}
+            pagination={{ clickable: true}}
+            modules={[Navigation, Autoplay, Pagination]}
+            className="gallery-slider slider"
+          >
+            <SwiperSlide className="gallery-item">
               <img src={img01.src} alt="" />
-            </Link>
-          </div>
-          <div className="entry-holder">
-            {/* Article number */}
-            <div className="post-num">
-              <span className="current-post">New Mune Faire</span>
-            </div>
-            {/* Blog title */}
-            <h2 className="entry-title">
-              <a href="https://www.amazon.com/New-Mune-Faire-Trilogy-Book-ebook/dp/B0D8RYH15Q/ref=sr_1_1?crid=2M6PP2I2KISJ5&dib=eyJ2IjoiMSJ9.v3SVCnsJ7qfdk4KD_J_lAw.oke-1t1Ru3z1svPxux1Hj7uw0oLL1IRa2Gborgr5Xn8&dib_tag=se&keywords=new%20mune%20faire&qid=1721590864&sprefix=new%20mune%20fair%2Caps%2C97&sr=8-1" target="_blank" rel="noopener noreferrer">
-                Read on Kindle 
-              </a>
-            </h2>
-             {/* Some External Links */}
-             <div className="entry-info">
-              <div className="entry-info-left">
-                <div className="cat-links">
-                </div>
-                <div className="entry-date published">Learn More</div>
-              </div>
-              </div>
-            <p className="read-more-arrow">
-              <Link href="/books/nmf">
-                <img src={blogArrow.src} alt="Read More" />
-              </Link>
-            </p>
-          </div>
-          <div className="clear"></div>
-        </motion.article>
-
-        <motion.article
-          initial={{ opacity: 0, transform: `translateY(50px)` }}
-          whileInView={{ opacity: 1, transform: `translateY(0px)` }}
-          viewport={{ once: true }}
-          className="animate relative blog-item-holder center-relative has-post-thumbnail"
-        >
-          <div className="post-thumbnail">
-            <Link href="./single">
+              <p className="item-text">
+                <Link href="./single-gallery">One More Time</Link>
+              </p>
+            </SwiperSlide>
+            <SwiperSlide className="gallery-item">
               <img src={img02.src} alt="" />
-            </Link>
-          </div>
-          <div className="entry-holder">
-            <div className="post-num">
-              <span className="current-post">2</span>
-              <span className="separator">/</span>
-              <span className="total-posts">3</span>
-            </div>
-            <div className="entry-info">
-              <div className="entry-info-left">
-                <div className="cat-links">
-                  <ul>
-                    <li>
-                      <Link href="">Blog</Link>
-                    </li>
-                  </ul>
-                </div>
-                <div className="entry-date published">January 1, 2017</div>
-              </div>
-              <div className="entry-info-right">
-                <div className="author-nickname">
-                  <Link href="" title="Posts by Peter Wall">
-                    Peter Wall
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <h2 className="entry-title">
-              <Link href="./single">
-                The best handcrafted wooden office table
-              </Link>
-            </h2>
-            <p className="read-more-arrow">
-              <Link href="./single">
-                <img src={blogArrow.src} alt="Read More" />
-              </Link>
-            </p>
-          </div>
-          <div className="clear"></div>
-        </motion.article>
-
-        <motion.article
-          initial={{ opacity: 0, transform: `translateY(50px)` }}
-          whileInView={{ opacity: 1, transform: `translateY(0px)` }}
-          viewport={{ once: true }}
-          className="animate relative blog-item-holder center-relative has-post-thumbnail"
-        >
-          <div className="post-thumbnail">
-            <Link href="./single">
+              <p className="item-text">
+                <Link href="./single-gallery">Reminiscences from Paris</Link>
+              </p>
+            </SwiperSlide>
+            <SwiperSlide className="gallery-item">
               <img src={img03.src} alt="" />
-            </Link>
-          </div>
-          <div className="entry-holder">
-            <div className="post-num">
-              <span className="current-post">3</span>
-              <span className="separator">/</span>
-              <span className="total-posts">3</span>
+              <p className="item-text">
+                <Link href="./single-gallery">Bottle of Life</Link>
+              </p>
+            </SwiperSlide>
+            <SwiperSlide className="gallery-item">
+              <img src={img04.src} alt="" />
+              <p className="item-text">
+                <Link href="./single-gallery">Made With Love</Link>
+              </p>
+            </SwiperSlide>
+            <div className="swiper-button-prev">
+              <img src={leftArrow.src} />
             </div>
-            <div className="entry-info">
-              <div className="entry-info-left">
-                <div className="cat-links">
-                  <ul>
-                    <li>
-                      <Link href="">Blog</Link>
-                    </li>
-                  </ul>
-                </div>
-                <div className="entry-date published">January 1, 2017</div>
-              </div>
-              <div className="entry-info-right">
-                <div className="author-nickname">
-                  <Link href="" title="Posts by Peter Wall">
-                    Peter Wall
-                  </Link>
-                </div>
-              </div>
+            <div className="swiper-button-next">
+              <img src={rightArrow.src} />
             </div>
-            <h2 className="entry-title">
-              <Link href="./single">Do it yourself white print art frame</Link>
-            </h2>
-            <p className="read-more-arrow">
-              <Link href="./single">
-                <img src={blogArrow.src} alt="Read More" />
-              </Link>
-            </p>
-          </div>
-          <div className="clear"></div>
-        </motion.article>
+          </Swiper>
+        </div>
       </div>
     </main>
   );
-}
+};
 
-export default Blog;
+export default Colorbook;

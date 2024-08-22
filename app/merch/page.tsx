@@ -1,105 +1,76 @@
 "use client";
 
-import Link from "next/link";
-
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay } from "swiper/modules";
+import { Pagination, EffectFade, Autoplay } from "swiper/modules";
+import Link from "next/link";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
-import "swiper/css/navigation";
 
 // Images
-import rightArrow from "@/assets/images/opta_arrow@2x.png";
-import leftArrow from "@/assets/images/opta_arrow@2x_left.png";
-import img01 from "@/assets/images/gallery/about_img-1024x440.jpg";
-import img02 from "@/assets/images/gallery/img_06_large-1024x539.jpg";
-import img03 from "@/assets/images/gallery/gallery_img.jpg";
-import img04 from "@/assets/images/gallery/img_01_large-1024x539.jpg";
+import aboutImg from "@/assets/images/about/about_img.jpg";
 
-// ------------------
+// ------------
 
-const Gallery = () => {
+function Merch() {
   return (
     <main className="page">
       <div id="content" className="site-content">
-        {/* Description text */}
-        <div className="content-945 center-relative">
-          <div className="one_third menu">
-          <span className="menuItem">MERCH</span>
-                        <div className="dropdownContent">
-                          <Link href="#" className="menuItems">Hat </Link> <br/>
-                          <Link href="#" className="menuItems">Shirt</Link> <br/>
-                          <Link href="#" className="menuItems">Socks</Link> <br/>
-                          <Link href="#" className="menuItems">Iron-On Patch</Link> <br/>
-                          <Link href="#" className="menuItems">Map Poster</Link><br/>
-                          <Link href="#" className="menuItems">Coming Soon</Link>
-                        </div>
-          </div>
-          <div className="two_third last">
-            Lacus venenatis Sed eu, imperdiet tellus congue, porttitor dolor. A
-            great man, but of the living creature was brought about by the
-            Aenean hendrerit lorem. In malesuada eu nulla sit amet aliquam.
-            Etiam faucibus iaculis justo, tempor est quis, tempus orci. Donec
-            nec sapien euismod accumsan nisl eget, rhoncus erat.
-          </div>
-          <div className="clear"></div>
-          <br />
-          <br />
+        <div className="content-1140 header-content center-relative block">
+          <h1 className="entry-title">
+            Merch
+            <br /> </h1>
+            <p className="popuptext">
+            Look at what's coming soon!
+            </p>
         </div>
-        {/* Gallery Items Slider */}
-        <div className="full-page-width center-relative">
-          <Swiper
-            navigation={{
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
-            }}
-            loop={true}
-            slidesPerView={"auto"}
-            centeredSlides={true}
-            spaceBetween={100}
-            autoplay={true}
-            speed={1250}
-            modules={[Navigation, Autoplay]}
-            className="gallery-slider slider"
-          >
-            <SwiperSlide className="gallery-item">
-              <img src={img01.src} alt="" />
-              <p className="item-text">
-                <Link href="./single-gallery">T Shirt</Link>
-              </p>
-            </SwiperSlide>
-            <SwiperSlide className="gallery-item">
-              <img src={img02.src} alt="" />
-              <p className="item-text">
-                <Link href="./single-gallery">Iron-On Patch</Link>
-              </p>
-            </SwiperSlide>
-            <SwiperSlide className="gallery-item">
-              <img src={img03.src} alt="" />
-              <p className="item-text">
-                <Link href="./single-gallery">Mug</Link>
-              </p>
-            </SwiperSlide>
-            <SwiperSlide className="gallery-item">
-              <img src={img04.src} alt="" />
-              <p className="item-text">
-                <Link href="./single-gallery">Poetry Book</Link>
-              </p>
-            </SwiperSlide>
-            <div className="swiper-button-prev">
-              <img src={leftArrow.src} />
-            </div>
-            <div className="swiper-button-next">
-              <img src={rightArrow.src} />
-            </div>
-          </Swiper>
+          <div className="header-content center-relative block">
+                <div className="dropdownContent">
+                     <Link href="#" className="menuItems">Stickers </Link> <br/>
+                     <Link href="#" className="menuItems">Maps </Link> <br/>
+                     <Link href="#" className="menuItems">Bookmarks</Link> <br/>
+                     <Link href="#" className="menuItems">Treasure Box</Link> <br/>
+           </div>
+              <br />
+            <div className="box-page-width content-1140 center-relative">
+          <img className="aligncenter" src={aboutImg.src} alt="" />
         </div>
-      </div>
+
+          {/* Text Slider */}
+          <div className="testimonial-slider-holder relative">
+            <Swiper
+              pagination={{ clickable: true }}
+              effect="fade"
+              fadeEffect={{ crossFade: true }}
+              loop={true}
+              speed={750}
+              autoplay
+              allowTouchMove={false}
+              modules={[EffectFade, Pagination, Autoplay]}
+              autoHeight
+              id="textslider"
+              className="testimonial-slider slider"
+            >
+              <SwiperSlide className="testimonial-content">
+                Fun stuff about the Faire!
+              </SwiperSlide>
+              <SwiperSlide className="testimonial-content">
+                Support the faire here!
+                <br />
+              </SwiperSlide>
+              <SwiperSlide className="testimonial-content">
+                Other inspirational informating quote.
+                <br />
+              </SwiperSlide>
+            </Swiper>
+          </div>
+
+          </div>
+        </div>
     </main>
   );
-};
+}
 
-export default Gallery;
+export default Merch;
