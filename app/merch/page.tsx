@@ -28,7 +28,7 @@ function Merch() {
         </div>
           <div className="header-content center-relative block">
                 <div className="dropdownContent">
-                     <Link href="#" className="menuItems">Stickers </Link> <br/>
+                     <Link href="/merch/stickers" className="menuItems">Stickers </Link> <br/>
                      <Link href="#" className="menuItems">Maps </Link> <br/>
                      <Link href="#" className="menuItems">Bookmarks</Link> <br/>
                      <Link href="#" className="menuItems">Treasure Box</Link> <br/>
