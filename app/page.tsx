@@ -24,7 +24,7 @@ import ripbg from "@/assets/images/home/ripbg.png"
 
 // ------------
 
-function Home() {
+function Hearth() {
   const [loadedAll, setLoadedAll] = useState<boolean>(false);
 
   const handleLoadAll = () => {
@@ -171,4 +171,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Hearth;

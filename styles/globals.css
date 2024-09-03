@@ -178,7 +178,7 @@ body, ul {
 
 /* Header styles */
 .header-holder {
-  background-color: #183b1e;
+  background-color: #0e351a;
   padding: 10px 20px;
   display: fixed;
   justify-content: space-between;
@@ -192,7 +192,7 @@ body, ul {
 }
 
 .header-logo img {
-  height: 80px;
+  height: 120px;
 }
 
 .menu-holder {

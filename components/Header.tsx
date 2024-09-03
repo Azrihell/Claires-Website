@@ -35,7 +35,7 @@ const Header = () => {
           <ul className="main-menu">
             <li>
               <Link href="/" className={pathname === "/" ? "current" : ""}>
-                Home
+                Hearth
               </Link>
             </li>
             <li>
