@@ -14,10 +14,11 @@ import "swiper/css/navigation";
 // Images
 import rightArrow from "@/assets/images/opta_arrow@2x.png";
 import leftArrow from "@/assets/images/opta_arrow@2x_left.png";
-import img01 from "@/assets/images/gallery/about_img-1024x440.jpg";
-import img02 from "@/assets/images/gallery/img_06_large-1024x539.jpg";
-import img03 from "@/assets/images/gallery/gallery_img.jpg";
+import ColorPg1 from "@/assets/images/home/ColorPg1.jpg"
+import ColorPg2 from "@/assets/images/home/ColorPg2.jpg"
+import ColorPg3 from "@/assets/images/home/ColorPg3.jpg"
 import img04 from "@/assets/images/gallery/img_01_large-1024x539.jpg";
+import ColorBook from "@/assets/images/home/ColorBook.jpg";
 
 // ------------------
 
@@ -27,16 +28,12 @@ const Colorbook = () => {
       <div id="content" className="site-content">
         {/* Description text */}
         <div className="content-945 center-relative">
-          <div className="one_third">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            posuere lobortis ante sit amet egestas.
-          </div>
-          <div className="two_third last">
-            Lacus venenatis Sed eu, imperdiet tellus congue, porttitor dolor. A
-            great man, but of the living creature was brought about by the
-            Aenean hendrerit lorem. In malesuada eu nulla sit amet aliquam.
-            Etiam faucibus iaculis justo, tempor est quis, tempus orci. Donec
-            nec sapien euismod accumsan nisl eget, rhoncus erat.
+        <h1 className="entry-title">
+          New Mune's Coloring Book
+        </h1>
+          <img className="one_third" src={ColorBook.src} alt="New Mune Faire Book One"/>
+          <div className="two_fourth last">
+            Description of amazing coloring book!
           </div>
           <div className="clear"></div>
           <br />
@@ -53,34 +50,28 @@ const Colorbook = () => {
             slidesPerView={"auto"}
             centeredSlides={true}
             spaceBetween={100}
-            autoplay={true}
+            autoplay={false}
             speed={1250}
             pagination={{ clickable: true}}
             modules={[Navigation, Autoplay, Pagination]}
             className="gallery-slider slider"
           >
             <SwiperSlide className="gallery-item">
-              <img src={img01.src} alt="" />
+              <img src={ColorPg1.src} alt="" />
               <p className="item-text">
                 <Link href="./single-gallery">One More Time</Link>
               </p>
             </SwiperSlide>
             <SwiperSlide className="gallery-item">
-              <img src={img02.src} alt="" />
+              <img src={ColorPg2.src} alt="" />
               <p className="item-text">
                 <Link href="./single-gallery">Reminiscences from Paris</Link>
               </p>
             </SwiperSlide>
             <SwiperSlide className="gallery-item">
-              <img src={img03.src} alt="" />
+              <img src={ColorPg3.src} alt="" />
               <p className="item-text">
                 <Link href="./single-gallery">Bottle of Life</Link>
-              </p>
-            </SwiperSlide>
-            <SwiperSlide className="gallery-item">
-              <img src={img04.src} alt="" />
-              <p className="item-text">
-                <Link href="./single-gallery">Made With Love</Link>
               </p>
             </SwiperSlide>
             <div className="swiper-button-prev">
