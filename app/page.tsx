@@ -8,10 +8,9 @@ import StickyPopup from "@/components/Popup";
 // Images
 import arrow from "@/assets/images/opta_arrow@2x.png";
 import NMF1 from "@/assets/images/home/NMF1.png";
-import ColorBook from "@/assets/images/home/ColorBook.jpg";
+import ColorBook from "@/assets/images/colorbook/ColorBook.jpg";
 import img03 from "@/assets/images/home/img_03.jpg";
 import img04 from "@/assets/images/home/img_04.jpg";
-import ripbg from "@/assets/images/home/ripbg.png"
 
 
 

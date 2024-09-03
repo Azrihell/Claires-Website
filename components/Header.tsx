@@ -46,7 +46,7 @@ const Header = () => {
             <li className="dropdown">
               <Link href="/books" className="menu">Books</Link>
               <div className="dropdown-content">
-                <Link href="/books/nmf" className="menuItems">New Mune Faire</Link>
+                <Link href="/books/nmf" className="menuItems">New Mune Trilogy</Link>
                 <Link href="/books/colorbook" className="menuItems">Coloring Book</Link>
                 <Link href="#" className="menuItems">Coming Soon</Link>
               </div>

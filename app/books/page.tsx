@@ -6,7 +6,8 @@ import Link from "next/link";
 // Images
 import blogArrow from "@/assets/images/blog/blog_arrow@2x.png";
 import NMF1 from "@/assets/images/home/NMF1.png";
-import ColorBook1 from "@/assets/images/home/ColorBook1.png"
+import ColorBook1 from "@/assets/images/colorbook/ColorBook1.png"
+import NMF2Cover from "@/assets/images/nmf/NMF2Cover.png";
 
 // ------------
 
@@ -110,7 +111,7 @@ function Blog() {
           <div className="post-thumbnail">
             {/* Article Image */}
             <Link href="/books/nmf/nmf2">
-              <img src={NMF1.src} alt="" />
+              <img src={NMF2Cover.src} alt="" />
             </Link>
           </div>
           <div className="entry-holder">
@@ -120,7 +121,7 @@ function Blog() {
             </div>
             {/* Blog title */}
             <h2 className="entry-title">
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a href="/books/nmf/nmf2" target="_blank" rel="noopener noreferrer">
                 Coming Soon 
               </a>
             </h2>

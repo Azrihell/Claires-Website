@@ -14,12 +14,11 @@ import "swiper/css/navigation";
 // Images
 import rightArrow from "@/assets/images/opta_arrow@2x.png";
 import leftArrow from "@/assets/images/opta_arrow@2x_left.png";
-import ColorPg1 from "@/assets/images/home/ColorPg1.jpg"
-import ColorPg2 from "@/assets/images/home/ColorPg2.jpg"
-import ColorPg3 from "@/assets/images/home/ColorPg3.jpg"
-import ColorBookBack from "@/assets/images/home/ColorBookBack.jpg"
-import ColorBook1 from "@/assets/images/home/ColorBook1.png"
-import ColorBookSM from "@/assets/images/home/ColorBookSM.jpg";
+import ColorPg1 from "@/assets/images/colorbook/ColorPg1.jpg"
+import ColorPg2 from "@/assets/images/colorbook/ColorPg2.jpg"
+import ColorPg3 from "@/assets/images/colorbook/ColorPg3.jpg"
+import ColorBookBack from "@/assets/images/colorbook/ColorBookBack.jpg"
+import ColorBookSM from "@/assets/images/colorbook/ColorBookSM.jpg";
 
 // ------------------
 

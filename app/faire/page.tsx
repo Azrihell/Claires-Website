@@ -2,14 +2,22 @@
 
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, EffectFade, Autoplay } from "swiper/modules";
+import { Pagination, Navigation, Autoplay } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
+import "swiper/css/navigation";
 
 // Images
-import aboutImg from "@/assets/images/about/about_img.jpg";
+import faire1 from "@/assets/images/faire/faire1.jpg"
+import faire2 from "@/assets/images/faire/faire2.jpg"
+import faire3 from "@/assets/images/faire/faire3.jpg"
+import faire4 from "@/assets/images/faire/faire4.jpg"
+import faire5 from "@/assets/images/faire/faire5.jpg"
+import rightArrow from "@/assets/images/opta_arrow@2x.png";
+import leftArrow from "@/assets/images/opta_arrow@2x_left.png";
+
 
 // ------------
 
@@ -34,40 +42,47 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="box-page-width content-1140 center-relative">
-          <img className="aligncenter" src={aboutImg.src} alt="" />
-        </div>
-        <div className="content-945 center-relative">
-          <br />
 
-          {/* Text Slider */}
-          <div className="testimonial-slider-holder relative">
-            <Swiper
-              pagination={{ clickable: true }}
-              effect="fade"
-              fadeEffect={{ crossFade: true }}
-              loop={true}
-              speed={750}
-              autoplay
-              allowTouchMove={false}
-              modules={[EffectFade, Pagination, Autoplay]}
-              autoHeight
-              id="textslider"
-              className="testimonial-slider slider"
-            >
-              <SwiperSlide className="testimonial-content">
-                Fun stuff about the Faire!
-              </SwiperSlide>
-              <SwiperSlide className="testimonial-content">
-                Support the faire here!
-                <br />
-              </SwiperSlide>
-              <SwiperSlide className="testimonial-content">
-                Other inspirational informating quote.
-                <br />
-              </SwiperSlide>
-            </Swiper>
-          </div>
+          {/* Gallery Items Slider */}
+        <div className="full-page-width center-relative">
+          <Swiper
+            navigation={{
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            }}
+            loop={true}
+            slidesPerView={"auto"}
+            centeredSlides={true}
+            spaceBetween={50}
+            autoplay={true}
+            speed={1250}
+            pagination={{ clickable: true}}
+            modules={[Navigation, Autoplay, Pagination]}
+            className="gallery-slider slider"
+          >
+            <SwiperSlide className="gallery-item">
+              <img src={faire1.src} alt="" />
+            </SwiperSlide>
+            <SwiperSlide className="gallery-item">
+              <img src={faire2.src} alt="" />
+            </SwiperSlide>
+            <SwiperSlide className="gallery-item">
+              <img src={faire3.src} alt="" />
+            </SwiperSlide>
+            <SwiperSlide className="gallery-item">
+              <img src={faire4.src} alt="" />
+            </SwiperSlide>
+            <SwiperSlide className="gallery-item">
+              <img src={faire5.src} alt="" />
+            </SwiperSlide>
+
+            <div className="swiper-button-prev">
+              <img src={leftArrow.src} />
+            </div>
+            <div className="swiper-button-next">
+              <img src={rightArrow.src} />
+            </div>
+          </Swiper>
 
           <br />
           <div className="header-content center-relative block">
@@ -81,10 +96,10 @@ function About() {
                 in intricate costumes that they’re proud of. A community for bookworms, nerds, cosplayers, and rennies alike. <br />
                 <br />  Claire K. Zada intends to put all her earnings from the
                  New Mune Faire Franchise into savings, so that one day, this Faire Ground may be a reality. 
-            </p>
+             </p>
+            </div>
           </div>
         </div>
-      </div>
     </main>
   );
 }
