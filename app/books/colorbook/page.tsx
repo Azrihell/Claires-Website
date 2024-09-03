@@ -17,8 +17,9 @@ import leftArrow from "@/assets/images/opta_arrow@2x_left.png";
 import ColorPg1 from "@/assets/images/home/ColorPg1.jpg"
 import ColorPg2 from "@/assets/images/home/ColorPg2.jpg"
 import ColorPg3 from "@/assets/images/home/ColorPg3.jpg"
-import img04 from "@/assets/images/gallery/img_01_large-1024x539.jpg";
-import ColorBook from "@/assets/images/home/ColorBook.jpg";
+import ColorBookBack from "@/assets/images/home/ColorBookBack.jpg"
+import ColorBook1 from "@/assets/images/home/ColorBook1.png"
+import ColorBookSM from "@/assets/images/home/ColorBookSM.jpg";
 
 // ------------------
 
@@ -31,7 +32,6 @@ const Colorbook = () => {
         <h1 className="entry-title">
           New Mune's Coloring Book
         </h1>
-          <img className="one_third" src={ColorBook.src} alt="New Mune Faire Book One"/>
           <div className="two_fourth last">
             Description of amazing coloring book!
           </div>
@@ -47,33 +47,37 @@ const Colorbook = () => {
               prevEl: ".swiper-button-prev",
             }}
             loop={true}
-            slidesPerView={"auto"}
+            slidesPerView={4.5}
             centeredSlides={true}
-            spaceBetween={100}
-            autoplay={false}
+            spaceBetween={50}
+            autoplay={true}
             speed={1250}
             pagination={{ clickable: true}}
             modules={[Navigation, Autoplay, Pagination]}
             className="gallery-slider slider"
           >
             <SwiperSlide className="gallery-item">
-              <img src={ColorPg1.src} alt="" />
-              <p className="item-text">
-                <Link href="./single-gallery">One More Time</Link>
-              </p>
+              <img src={ColorBookBack.src} alt="" />
             </SwiperSlide>
+            
+            <SwiperSlide className="gallery-item">
+              <img src={ColorBookSM.src} alt="" />
+            </SwiperSlide>
+            
+            <SwiperSlide className="gallery-item">
+              <img src={ColorPg1.src} alt="" />
+            </SwiperSlide>
+
             <SwiperSlide className="gallery-item">
               <img src={ColorPg2.src} alt="" />
-              <p className="item-text">
-                <Link href="./single-gallery">Reminiscences from Paris</Link>
-              </p>
             </SwiperSlide>
+            
             <SwiperSlide className="gallery-item">
               <img src={ColorPg3.src} alt="" />
-              <p className="item-text">
-                <Link href="./single-gallery">Bottle of Life</Link>
-              </p>
             </SwiperSlide>
+
+            
+
             <div className="swiper-button-prev">
               <img src={leftArrow.src} />
             </div>
