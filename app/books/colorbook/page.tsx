@@ -28,12 +28,15 @@ const Colorbook = () => {
     <main className="page">
       <div id="content" className="site-content">
         {/* Description text */}
-        <div className="content-945 center-relative">
+        <div className="content-1140 center-relative">
         <h1 className="entry-title">
           New Mune's Coloring Book
         </h1>
-          <div className="two_fourth last">
-            Description of amazing coloring book!
+          <div className="header-content center-relative block">
+           Mune is a colorful planet, teeming with magic, creations, and creatures beyond the reach of our world. But you can bring it to life within these pages. <br/>
+           The New Mune Faire Coloring Book contains races and notable characters from the books “New Mune Faire”, “Tale of the Kitsune”, “Erowid the Diviner” and game “Hazi’s Haven”. <br/>
+           Enjoy the getaway of bright colors and creativity as you please, whether you love the books, or just love filling up pages with splashes of art and flare!
+
           </div>
           <div className="clear"></div>
           <br />
@@ -47,7 +50,7 @@ const Colorbook = () => {
               prevEl: ".swiper-button-prev",
             }}
             loop={true}
-            slidesPerView={4.5}
+            slidesPerView={"auto"}
             centeredSlides={true}
             spaceBetween={50}
             autoplay={true}
@@ -63,7 +66,7 @@ const Colorbook = () => {
             <SwiperSlide className="gallery-item">
               <img src={ColorBookSM.src} alt="" />
             </SwiperSlide>
-            
+
             <SwiperSlide className="gallery-item">
               <img src={ColorPg1.src} alt="" />
             </SwiperSlide>
@@ -76,8 +79,6 @@ const Colorbook = () => {
               <img src={ColorPg3.src} alt="" />
             </SwiperSlide>
 
-            
-
             <div className="swiper-button-prev">
               <img src={leftArrow.src} />
             </div>
@@ -85,6 +86,15 @@ const Colorbook = () => {
               <img src={rightArrow.src} />
             </div>
           </Swiper>
+
+          <br/>
+            
+          <div className="content-945 center-relative">
+          <h1 className="entry-title">
+          Pre-Order on September 1st!
+        </h1>
+          </div>
+
         </div>
       </div>
     </main>
