@@ -7,7 +7,6 @@ import Link from "next/link";
 import blogArrow from "@/assets/images/blog/blog_arrow@2x.png";
 import NMF1 from "@/assets/images/home/NMF1.png";
 import ColorBook1 from "@/assets/images/home/ColorBook1.png"
-import img03 from "@/assets/images/blog/blog_img_03.jpg";
 
 // ------------
 
