@@ -74,14 +74,14 @@ function Hearth() {
             </div>
           </motion.li>
           {/* Quote Item */}
-          <motion.li
+          {/* <motion.li
             initial={{ opacity: 0, transform: `translateY(50px)` }}
             whileInView={{ opacity: 1, transform: `translateY(0px)` }}
             viewport={{ once: true }}
             className="grid-item element-item quote-item "
           >
             See what started it all
-          </motion.li>
+          </motion.li> */}
           <motion.li
             initial={{ opacity: 0, transform: `translateY(50px)` }}
             whileInView={{ opacity: 1, transform: `translateY(0px)` }}
