@@ -11,6 +11,7 @@ import NMF1 from "@/assets/images/home/NMF1.png";
 import ColorBook from "@/assets/images/colorbook/ColorBook.jpg";
 import Map from "@/assets/images/home/Map.jpg";
 import merchpre from "@/assets/images/home/merchpre.png";
+import gamecover from "@/assets/images/home/gamecover.jpg";
 
 
 
@@ -50,8 +51,7 @@ function Hearth() {
             initial={{ opacity: 0, transform: `translateY(50px)` }}
             whileInView={{ opacity: 1, transform: `translateY(0px)` }}
             viewport={{ once: true }}
-            className="grid-item element-item "
-          >
+            className="grid-item element-item">
             <div className="item-wrapper">
               <Link href="/books/nmf">
                 <img src={NMF1.src} alt="New Mune Faire Book One" />
@@ -72,6 +72,15 @@ function Hearth() {
                 </div>
               </div>
             </div>
+          </motion.li>
+          {/* Quote Item */}
+          <motion.li
+            initial={{ opacity: 0, transform: `translateY(50px)` }}
+            whileInView={{ opacity: 1, transform: `translateY(0px)` }}
+            viewport={{ once: true }}
+            className="grid-item element-item quote-item "
+          >
+            See what started it all
           </motion.li>
           <motion.li
             initial={{ opacity: 0, transform: `translateY(50px)` }}
@@ -100,6 +109,7 @@ function Hearth() {
               </div>
             </div>
           </motion.li>
+          
           <motion.li
             initial={{ opacity: 0, transform: `translateY(50px)` }}
             whileInView={{ opacity: 1, transform: `translateY(0px)` }}
@@ -127,15 +137,33 @@ function Hearth() {
               </div>
             </div>
           </motion.li>
-          {/* Quote Item */}
-          {/* <motion.li
+          <motion.li
             initial={{ opacity: 0, transform: `translateY(50px)` }}
             whileInView={{ opacity: 1, transform: `translateY(0px)` }}
             viewport={{ once: true }}
-            className="grid-item element-item quote-item "
+            className="grid-item element-item "
           >
-            See what started it all
-          </motion.li> */}
+            <div className="">
+              <Link href="/merch">
+                <img src={gamecover.src} alt="" />
+              </Link>
+              <div className="portfolio-text-holder">
+                <div className="portfolio-info">
+                  <Link className="portfolio-text" href="/merch">
+                    Merch
+                  </Link>
+                  <p className="portfolio-category">
+                    <Link href="/merch">See More</Link>
+                  </p>
+                  <p className="portfolio-arrow">
+                    <Link href="/merch">
+                      <img src={arrow.src} alt="" />
+                    </Link>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </motion.li>
           <motion.li
             initial={{ opacity: 0, transform: `translateY(50px)` }}
             whileInView={{ opacity: 1, transform: `translateY(0px)` }}
@@ -163,6 +191,7 @@ function Hearth() {
               </div>
             </div>
           </motion.li>
+          
          </ul>
         <div className="clear"></div>
       </div>

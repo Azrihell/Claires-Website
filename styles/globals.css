@@ -770,7 +770,7 @@ body, ul {
 }
 
 /* ===================================
-    8. Portfolio (Home) Page CSS
+    8. (Home) Page CSS
 ====================================== */
 
 .header-content {
@@ -780,10 +780,11 @@ body, ul {
 
 .grid-item.quote-item {
   font-family: "Metamorphous", serif;
-  width: 400px;
-  font-size: 40px;
-  line-height: 60px;
+  width: 600px;
+  font-size: 70px;
+  line-height: 90px;
   text-align: center;
+  margin-left: 350px;
 }
 
 .grid-item.quote-item:before {
@@ -794,8 +795,8 @@ body, ul {
   font-size: 470px;
   line-height: 100%;
   color: #b4985f;
-  margin-bottom: -346px;
-  margin-top: -50px;
+  margin-bottom: -400px;
+  margin-top: 50px;
 }
 
 .grid {
@@ -846,7 +847,7 @@ body, ul {
 }
 
 .grid-item img {
-  display: block;
+  display: inline-block;
   width: auto;
   height: auto;
   max-height: 100%;
@@ -1698,7 +1699,7 @@ li.social-footer a:first-child {
   }
 
   .grid-item.quote-item {
-    font-size: 30px;
+    font-size: 90px;
     line-height: 45px;
   }
 
