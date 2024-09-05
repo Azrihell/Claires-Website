@@ -1823,10 +1823,10 @@ li.social-footer a:first-child {
 @media screen and (max-width: 750px) {
   .grid-item {
     display: block !important;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 33px;
-    max-width: 55%;
+    max-width: 100%;
   }
 
   .grid-item.quote-item:before {
