@@ -799,7 +799,7 @@ body, ul {
 }
 
 .grid {
-  width: auto;
+  width: 1300px;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -1928,6 +1928,17 @@ li.social-footer a:first-child {
   .post-num {
     font-size: 35px;
     margin-top: -15px;
+  }
+
+  .item-wrapped {
+    display: inline-block;
+    position: relative;
+    background-color: #23002e; 
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 10px;
+    border-radius: 8px; /* Optional, gives it slightly rounded corners */
+    width: "auto";
+    height: "auto";
   }
   
 }

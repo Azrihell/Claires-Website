@@ -45,7 +45,7 @@ function Hearth() {
 
       <div id="content" className="site-content">
         {/* Portfolio items */}
-        <ul className="grid item-wrapped" id="portfolio">
+        <ul className="item-wrapped" id="portfolio">
           <motion.li
             initial={{ opacity: 0, transform: `translateY(50px)` }}
             whileInView={{ opacity: 1, transform: `translateY(0px)` }}
