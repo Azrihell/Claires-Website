@@ -317,6 +317,7 @@ body, ul {
   font-size: 80px;
   line-height: 100%;
   margin-top: -14px;
+  color: #bb9144;
 }
 
 /* .post-num span { */
@@ -798,7 +799,7 @@ body, ul {
 }
 
 .grid {
-  width: 1300px;
+  width: auto;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -812,6 +813,19 @@ body, ul {
   display: inline-block;
   position: relative;
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.30);
+}
+
+.item-wrapped {
+  display: inline-block;
+  position: relative;
+  background-color: #23002e; 
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2); 
+  padding: 10px;
+  border-radius: 8px; /* Optional, gives it slightly rounded corners */
+  width: "auto";
+  height: "auto";
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .grid-item {
@@ -1909,6 +1923,11 @@ li.social-footer a:first-child {
     bottom: 10px;
     right: 5%;
     padding: 10px;
+  }
+
+  .post-num {
+    font-size: 35px;
+    margin-top: -15px;
   }
   
 }

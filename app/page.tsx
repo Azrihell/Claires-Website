@@ -9,8 +9,8 @@ import StickyPopup from "@/components/Popup";
 import arrow from "@/assets/images/opta_arrow@2x.png";
 import NMF1 from "@/assets/images/home/NMF1.png";
 import ColorBook from "@/assets/images/colorbook/ColorBook.jpg";
-import img03 from "@/assets/images/home/img_03.jpg";
-import img04 from "@/assets/images/home/img_04.jpg";
+import Map from "@/assets/images/home/Map.jpg";
+import merchpre from "@/assets/images/home/merchpre.png";
 
 
 
@@ -35,17 +35,17 @@ function Hearth() {
     <main className="page">
       {/* Page intro text */}
       <div className="content-1140 header-content center-relative block">
-        <h1 className="entry-title">
+        <h1 className="post-num">
           Just thinking about <Link href="/faire">New Mune Faire</Link> and all the wonders of the worlds.
         </h1>
-        <p className="page-desc">Whats New and Exciting?</p>
+        <p className="entry-title">Whats New and Exciting?</p>
       </div>
 
-      <div> <StickyPopup /> </div>
+      {/* <div> <StickyPopup /> </div> */}
 
       <div id="content" className="site-content">
         {/* Portfolio items */}
-        <ul className="grid" id="portfolio">
+        <ul className="grid item-wrapped" id="portfolio">
           <motion.li
             initial={{ opacity: 0, transform: `translateY(50px)` }}
             whileInView={{ opacity: 1, transform: `translateY(0px)` }}
@@ -106,20 +106,20 @@ function Hearth() {
             viewport={{ once: true }}
             className="grid-item element-item "
           >
-            <div className="item-wrapper">
-              <Link href="/single-portfolio">
-                <img src={img03.src} alt="" />
+            <div className="">
+              <Link href="/merch">
+                <img src={merchpre.src} alt="" />
               </Link>
               <div className="portfolio-text-holder">
                 <div className="portfolio-info">
-                  <Link className="portfolio-text" href="/single-portfolio">
-                    Amazon Kindle
+                  <Link className="portfolio-text" href="/merch">
+                    Merch
                   </Link>
                   <p className="portfolio-category">
-                    <Link href="">Read it Here</Link>
+                    <Link href="/merch">See More</Link>
                   </p>
                   <p className="portfolio-arrow">
-                    <Link href="/single-portfolio">
+                    <Link href="/merch">
                       <img src={arrow.src} alt="" />
                     </Link>
                   </p>
@@ -128,14 +128,14 @@ function Hearth() {
             </div>
           </motion.li>
           {/* Quote Item */}
-          <motion.li
+          {/* <motion.li
             initial={{ opacity: 0, transform: `translateY(50px)` }}
             whileInView={{ opacity: 1, transform: `translateY(0px)` }}
             viewport={{ once: true }}
             className="grid-item element-item quote-item "
           >
             See what started it all
-          </motion.li>
+          </motion.li> */}
           <motion.li
             initial={{ opacity: 0, transform: `translateY(50px)` }}
             whileInView={{ opacity: 1, transform: `translateY(0px)` }}
@@ -144,7 +144,7 @@ function Hearth() {
           >
             <div className="item-wrapper">
               <Link href="/characterpedia">
-                <img src={img04.src} alt="Go to CharacterPedias" />
+                <img src={Map.src} alt="Go to CharacterPedias" />
               </Link>
               <div className="portfolio-text-holder">
                 <div className="portfolio-info">
@@ -152,7 +152,7 @@ function Hearth() {
                     Characters
                   </Link>
                   <p className="portfolio-category">
-                    <Link href="/characterpedia">Learn More</Link>
+                    <Link href="/characterpedia">Explore</Link>
                   </p>
                   <p className="portfolio-arrow">
                     <Link href="/characterpedia">

@@ -26,7 +26,7 @@ function About() {
     <main className="page">
       <div id="content" className="site-content">
         <div className="content-1140 header-content center-relative block">
-          <h1 className="entry-title">
+          <h1 className="post-num">
             The Faire Ground
             <br />
           </h1>
