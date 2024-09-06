@@ -50,7 +50,7 @@
   position: relative;
 }
 .gallery-slider .gallery-item .item-text {
-  position: absolute;
+  position: relative;
   inset: 30px;
   display: flex;
   align-items: center;

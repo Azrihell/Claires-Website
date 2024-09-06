@@ -23,8 +23,38 @@ version 1.2
 -------------------------------------------------------------------*/
 
 /* ===================================
+    0. Custom CSS
+====================================== */
+/* Testing CSS Class */
+.forgery {
+  border: 1px dashed black;
+}
+
+/* Testing CSS Class */
+.forgery1 {
+  border: 1px dashed orange;
+}
+
+/* Testing CSS Class */
+.forgery2 {
+  border: 1px dashed orangered;
+}
+
+.flex-center {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
+
+
+/* ===================================
     1. Global CSS
 ====================================== */
+
+
 
 body {
   font-family: "Platypi", serif;
@@ -33,6 +63,7 @@ body {
   font-weight: 400;
   color: #ffffff;
   background-color: #2e093f;
+  overflow-x: hidden;
 }
 
 body a {
@@ -86,19 +117,19 @@ body a:hover {
 }
 
 .content-1140 {
-  width: 1140px;
+  /* width: 1140px; */
 }
 
 .content-970 {
-  width: 970px;
+  /* width: 970px; */
 }
 
 .content-945 {
-  width: 945px;
+  /* width: 945px; */
 }
 
 .content-750 {
-  width: 750px;
+  /* width: 750px; */
 }
 
 .content-1140 img,
@@ -179,12 +210,11 @@ body, ul {
 /* Header styles */
 .header-holder {
   background-color: #0e351a;
-  padding: 10px 20px;
   display: fixed;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-bottom: 5%;
+  margin-bottom: 48px;
 }
 
 .menu-toggle-button {
@@ -598,6 +628,7 @@ body, ul {
   color: #ffffff;
 }
 
+
 .single h1.entry-title {
   font-family: "Platypi", serif;
   font-weight: 400;
@@ -817,6 +848,26 @@ body, ul {
 }
 
 .item-wrapped {
+  display: inline-block;
+  position: relative;
+  background-color: #23002e; 
+  box-shadow: 2px 4px 8px rgba(0, 0, 0.2, 0.2); 
+  padding: 100px;
+  border-radius: 8px; /* Optional, gives it slightly rounded corners */
+  width: auto;
+  height: auto;
+  margin-left: 100px;
+  margin-right: 100px; 
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure the container takes the full viewport height */
+}
+
+.center-wrapped {
   display: inline-block;
   position: relative;
   background-color: #23002e; 
@@ -1450,13 +1501,11 @@ ul.copyright-holder:after {
 
 li.copyright-footer {
   float: left;
-  text-align: left;
   width: 50%;
 }
 
 li.social-footer {
   float: right;
-  text-align: right;
   width: 50%;
 }
 
