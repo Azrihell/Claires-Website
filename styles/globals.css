@@ -831,14 +831,13 @@ body, ul {
 }
 
 .grid {
-  width: 1300px;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
   text-align: center;
   list-style: none;
   max-width: 100%;
-  padding-left: 0;
 }
 
 .item-wrapper {
@@ -848,26 +847,6 @@ body, ul {
 }
 
 .item-wrapped {
-  display: inline-block;
-  position: relative;
-  background-color: #23002e; 
-  box-shadow: 2px 4px 8px rgba(0, 0, 0.2, 0.2); 
-  padding: 100px;
-  border-radius: 8px; /* Optional, gives it slightly rounded corners */
-  width: auto;
-  height: auto;
-  margin-left: 100px;
-  margin-right: 100px; 
-}
-
-.center-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Ensure the container takes the full viewport height */
-}
-
-.center-wrapped {
   display: inline-block;
   position: relative;
   background-color: #23002e; 
@@ -1382,11 +1361,11 @@ footer ul {
 }
 
 .footer-text {
-  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .footer-first-line {
-  font-family: "Playfair Display", serif;
+  font-family: "Platypi", serif;
   font-size: 40px;
   line-height: 60px;
 }

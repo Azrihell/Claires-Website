@@ -13,8 +13,8 @@ import NMF2Cover from "@/assets/images/nmf/NMF2Cover.png";
 
 function Blog() {
   return (
-    <main className="page">
-      <div className="blog-holder block center-relative content-1140">
+    <main className="page flex-center">
+      <div className="blog-holder block center-relative content-1140 item-wrapped ">
         {/* Article Body */}
         <motion.article
           initial={{ opacity: 0, transform: `translateY(50px)` }}

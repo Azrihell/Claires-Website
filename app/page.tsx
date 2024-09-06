@@ -35,24 +35,24 @@ function Hearth() {
     
     <main className="page">
       {/* Page intro text */}
-      <div className="content-1140 header-content center-relative block">
+      <div className="header-content block item-wrapped" style={{ marginBottom: "48px"}}>
         <h1 className="post-num">
           Just thinking about <Link href="/faire">New Mune Faire</Link> and all the wonders of the worlds.
         </h1>
-        <p className="entry-title">Whats New and Exciting?</p>
+        <p className="">Whats New and Exciting?</p>
       </div>
 
       {/* <div> <StickyPopup /> </div> */}
 
       <div id="content" className="site-content">
         {/* Portfolio items */}
-        <ul className="item-wrapped" id="portfolio">
+        <ul className="" id="portfolio">
           <motion.li
             initial={{ opacity: 0, transform: `translateY(50px)` }}
             whileInView={{ opacity: 1, transform: `translateY(0px)` }}
             viewport={{ once: true }}
             className="grid-item element-item">
-            <div className="item-wrapper">
+            <div className="item-wrapper item-wrapped">
               <Link href="/books/nmf">
                 <img src={NMF1.src} alt="New Mune Faire Book One" />
               </Link>
@@ -79,7 +79,7 @@ function Hearth() {
             viewport={{ once: true }}
             className="grid-item element-item "
           >
-            <div className="item-wrapper">
+            <div className="item-wrapper item-wrapped">
               <Link href="/books/colorbook">
                 <img src={ColorBook.src} alt="Coloring Book" />
               </Link>
@@ -107,7 +107,7 @@ function Hearth() {
             viewport={{ once: true }}
             className="grid-item element-item "
           >
-            <div className="">
+            <div className="item-wrapped">
               <Link href="/merch">
                 <img src={merchpre.src} alt="" />
               </Link>
@@ -134,7 +134,7 @@ function Hearth() {
             viewport={{ once: true }}
             className="grid-item element-item "
           >
-            <div className="item-wrapper">
+            <div className="item-wrapper item-wrapped">
               <Link href="/merch">
                 <img src={gamecover.src} alt="" />
               </Link>
@@ -161,7 +161,7 @@ function Hearth() {
             viewport={{ once: true }}
             className="grid-item element-item "
           >
-            <div className="item-wrapper">
+            <div className="item-wrapper item-wrapped">
               <Link href="/characterpedia">
                 <img src={Map.src} alt="Go to CharacterPedias" />
               </Link>

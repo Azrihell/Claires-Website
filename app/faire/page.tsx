@@ -27,7 +27,7 @@ function About() {
       <div id="content" className="site-content">
         <div className="flex-center" style={{ marginBottom: "48px"}}>
 
-          <div className="header-content block center-wrapped">
+          <div className="header-content block item-wrapped">
             <h1 className="post-num">
               The Faire Ground
               <br />
@@ -90,7 +90,7 @@ function About() {
 
           <br />
           <div className=" flex-center">
-            <div className="header-content block center-wrapped">
+            <div className="header-content block item-wrapped">
               <p className="abouttext">
               She needed to come up with a history and iconic characters that people would want
               to be a part of and greet. So, Claire K. Zada set out to do just that. She wrote,

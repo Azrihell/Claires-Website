@@ -9,11 +9,6 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content content-1140 center-relative">
         {/* Your Contact links */}
-        <div className="footer-logo">
-          <Link href="/">
-            <img src={logo.src} alt="Opta" />
-          </Link>
-        </div>
         <div className="footer-text">
           <p className="footer-first-line">
             <Link href="mailto:hello@yoursite.com">hello@yoursite.com</Link>
