@@ -794,7 +794,7 @@ body, ul {
   content: "\201C";
   font-size: 470px;
   line-height: 100%;
-  color: #b4985f;
+  color: #0e351a;
   margin-bottom: -400px;
   margin-top: 50px;
 }
@@ -813,20 +813,20 @@ body, ul {
 .item-wrapper {
   display: inline-block;
   position: relative;
-  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.30);
+  box-shadow: 15px 15px 15px rgba(0, 0.0, 0.2, 0.30);
 }
 
 .item-wrapped {
   display: inline-block;
   position: relative;
   background-color: #23002e; 
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2); 
-  padding: 10px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0.2, 0.2); 
+  padding: 100px;
   border-radius: 8px; /* Optional, gives it slightly rounded corners */
-  width: "auto";
-  height: "auto";
+  width: auto;
+  height: auto;
   margin-left: 100px;
-  margin-right: 100px;
+  margin-right: 100px; 
 }
 
 .grid-item {
@@ -1946,8 +1946,8 @@ li.social-footer a:first-child {
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2); 
     padding: 10px;
     border-radius: 8px; /* Optional, gives it slightly rounded corners */
-    width: "auto";
-    height: "auto";
+    width: auto;
+    height: auto;
   }
   
 }

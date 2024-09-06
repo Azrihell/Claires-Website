@@ -100,21 +100,17 @@ const Contact = () => {
           <div className="one_third">
             
           </div>
-          <div className="big-text two_third last">
+          <div className="big-text">
             Hello! Need Something?
           </div>
           <div className="clear"></div>
-          <br />
-          <br />
           {/* Contact Informations and links */}
           <div className="one_third">
             <div className="info-code">
-              <p className="info-code-title">EMAIL</p>
-              <p className="info-code-content">HELLO@YOURSITE.COM</p>
             </div>
           </div>
           {/* Contact Form */}
-          <div className="two_third last">
+          <div className="two_third last item-wrapped">
             <form className="contact-form" onSubmit={handleSubmit}>
               <p>
                 <input

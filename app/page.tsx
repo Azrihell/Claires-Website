@@ -73,15 +73,6 @@ function Hearth() {
               </div>
             </div>
           </motion.li>
-          {/* Quote Item */}
-          {/* <motion.li
-            initial={{ opacity: 0, transform: `translateY(50px)` }}
-            whileInView={{ opacity: 1, transform: `translateY(0px)` }}
-            viewport={{ once: true }}
-            className="grid-item element-item quote-item "
-          >
-            See what started it all
-          </motion.li> */}
           <motion.li
             initial={{ opacity: 0, transform: `translateY(50px)` }}
             whileInView={{ opacity: 1, transform: `translateY(0px)` }}
@@ -143,7 +134,7 @@ function Hearth() {
             viewport={{ once: true }}
             className="grid-item element-item "
           >
-            <div className="">
+            <div className="item-wrapper">
               <Link href="/merch">
                 <img src={gamecover.src} alt="" />
               </Link>
@@ -190,6 +181,17 @@ function Hearth() {
                 </div>
               </div>
             </div>
+          </motion.li>
+          {/* Quote Item */}
+          <motion.li
+            initial={{ opacity: 0, transform: `translateY(50px)` }}
+            whileInView={{ opacity: 1, transform: `translateY(0px)` }}
+            viewport={{ once: true }}
+            className="grid-item element-item quote-item "
+          >
+            <Link className="portfolio-text" href="/faire">
+                    See what started it all
+                  </Link>
           </motion.li>
           
          </ul>

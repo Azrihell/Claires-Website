@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <div className="header-holder center-relative relative content-1140">
-      <div className="header-logo center-text">
+      <div className="header-logo center-text ">
         <Link href="/">
           <img src={logo.src} alt="Opta" />
         </Link>
@@ -67,11 +67,11 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <form role="search" className="search-form">
+              {/* <form role="search" className="search-form">
                 <label>
                   <input type="search" className="search-field" placeholder="Search" name="search" title="Search for:" />
                 </label>
-              </form>
+              </form> */}
             </li>
           </ul>
         </nav>
