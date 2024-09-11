@@ -141,10 +141,10 @@ function Hearth() {
               <div className="portfolio-text-holder">
                 <div className="portfolio-info">
                   <Link className="portfolio-text" href="/merch">
-                    Merch
+                    Hazi's Haven
                   </Link>
                   <p className="portfolio-category">
-                    <Link href="/merch">See More</Link>
+                    <Link href="/merch">Dorian.Live</Link>
                   </p>
                   <p className="portfolio-arrow">
                     <Link href="/merch">
@@ -155,7 +155,7 @@ function Hearth() {
               </div>
             </div>
           </motion.li>
-          <motion.li
+          {/* <motion.li
             initial={{ opacity: 0, transform: `translateY(50px)` }}
             whileInView={{ opacity: 1, transform: `translateY(0px)` }}
             viewport={{ once: true }}
@@ -181,9 +181,9 @@ function Hearth() {
                 </div>
               </div>
             </div>
-          </motion.li>
+          </motion.li> */}
           {/* Quote Item */}
-          <motion.li
+          {/* <motion.li
             initial={{ opacity: 0, transform: `translateY(50px)` }}
             whileInView={{ opacity: 1, transform: `translateY(0px)` }}
             viewport={{ once: true }}
@@ -192,7 +192,7 @@ function Hearth() {
             <Link className="portfolio-text" href="/faire">
                     See what started it all
                   </Link>
-          </motion.li>
+          </motion.li> */}
           
          </ul>
         <div className="clear"></div>

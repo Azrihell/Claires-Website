@@ -749,34 +749,20 @@ body, ul {
 }
 
 /* ===================================
-    6. Archive Page CSS
+    6. NMF Page CSS
 ====================================== */
 
-.archive-title h1 {
-  font-family: "Playfair Display", serif;
-  font-weight: 400;
-  border-bottom: 2px solid;
-  display: inline-block;
+.info-wrapper {
+  border-radius: 8px;
+  text-align: center;
 }
 
-.page-pagination-holder {
-  margin: 70px 0;
-}
-
-.page-numbers.current {
-  border: 1px solid #d7b065;
-  color: #d7b065;
-  padding: 7px 12px;
-  border-radius: 90%;
-}
-
-.page-numbers {
-  margin: 0 5px;
-  font-size: 16px;
-}
-
-.page-numbers:hover {
-  color: #d7b065;
+.info-wrapped {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #082012;
+  padding: 48px;
 }
 
 /* ===================================
@@ -865,7 +851,7 @@ body, ul {
   font-size: 0;
   line-height: 0;
   margin: 3%;
-  max-width: 43%;
+  max-width: 44%;
 }
 
 .grid-item.hidden {
@@ -1500,6 +1486,20 @@ li.social-footer a:first-child {
     12. Responsive CSS
 ====================================== */
 
+@media screen and (max-width: 2550px) {
+  .item-wrapped {
+    display: inline-block;
+    position: relative;
+    background-color: #23002e; 
+    margin: auto;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 10px;
+    border-radius: 8px; /* Optional, gives it slightly rounded corners */
+    width: auto;
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 1600px) {
   .content-1140 {
     max-width: 95%;
@@ -1517,6 +1517,7 @@ li.social-footer a:first-child {
     left: 55%;
     left: calc(55% - 1px);
   }
+
 }
 
 @media screen and (max-width: 1450px) {
@@ -1576,6 +1577,45 @@ li.social-footer a:first-child {
     font-size: 35px;
     line-height: 50px;
   }
+}
+
+@media screen and (max-width: 1150px) {
+  .grid-item {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 33px;
+    max-width: 100%;
+  }
+  
+  .item-wrapped {
+    display: inline-block;
+    position: relative;
+    background-color: #23002e; 
+    margin: auto;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 10px;
+    border-radius: 8px; /* Optional, gives it slightly rounded corners */
+    width: auto;
+    height: auto;
+  }
+  
+}
+
+@media screen and (max-width: 1650px) {
+ 
+  .item-wrapped {
+    display: inline-block;
+    position: relative;
+    background-color: #23002e; 
+    margin: auto;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 10px;
+    border-radius: 8px; /* Optional, gives it slightly rounded corners */
+    width: auto;
+    height: auto;
+  }
+  
 }
 
 @media screen and (max-width: 1020px) {
@@ -1856,6 +1896,7 @@ li.social-footer a:first-child {
     margin-bottom: 33px;
     max-width: 100%;
   }
+  
 
   .grid-item.quote-item:before {
     font-size: 100px;
