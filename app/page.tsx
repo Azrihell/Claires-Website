@@ -140,14 +140,14 @@ function Hearth() {
               </Link>
               <div className="portfolio-text-holder">
                 <div className="portfolio-info">
-                  <Link className="portfolio-text" href="/merch">
+                  <Link className="portfolio-text" href="/haven">
                     Hazi's Haven
                   </Link>
                   <p className="portfolio-category">
-                    <Link href="/merch">Dorian.Live</Link>
+                    <Link href="/haven">Dorian.Live</Link>
                   </p>
                   <p className="portfolio-arrow">
-                    <Link href="/merch">
+                    <Link href="/haven">
                       <img src={arrow.src} alt="" />
                     </Link>
                   </p>

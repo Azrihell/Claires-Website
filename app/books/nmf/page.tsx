@@ -6,7 +6,7 @@ import Link from "next/link";
 // Images
 import blogArrow from "@/assets/images/blog/blog_arrow@2x.png";
 import NMF1 from "@/assets/images/home/NMF1.png";
-import ColorBook1 from "@/assets/images/colorbook/ColorBook1.png"
+import NMF3Cover from "@/assets/images/nmf/NMF3Cover.jpg"
 import NMF2Cover from "@/assets/images/nmf/NMF2Cover.png";
 
 // ------------
@@ -14,7 +14,7 @@ import NMF2Cover from "@/assets/images/nmf/NMF2Cover.png";
 function nmf() {
   return (
     <main className="page flex-center">
-      <div className="blog-holder block center-relative content-1140 item-wrapped ">
+      <div className="blog-holder block center-relative content-1140 item-wrapped">
         {/* Article Body */}
         <motion.article
           initial={{ opacity: 0, transform: `translateY(50px)` }}
@@ -64,18 +64,18 @@ function nmf() {
           <div className="post-thumbnail">
             {/* Article Image */}
             <Link href="/books/colorbook">
-              <img src={ColorBook1.src} alt="" />
+              <img src={NMF2Cover.src} alt="" />
             </Link>
           </div>
           <div className="entry-holder">
             {/* Article number */}
             <div className="post-num">
-              <span className="current-post">Coloring Book</span>
+              <span className="current-post">Nighmare Moon</span>
             </div>
             {/* Blog title */}
             <h2 className="entry-title">
               <a href="" target="_blank" rel="noopener noreferrer">
-                Pre-Order September 1st! 
+                Coming Soon! 
               </a>
             </h2>
              {/* Some External Links */}
@@ -104,18 +104,18 @@ function nmf() {
           <div className="post-thumbnail">
             {/* Article Image */}
             <Link href="/books/nmf/nmf2">
-              <img src={NMF2Cover.src} alt="" />
+              <img src={NMF3Cover.src} alt="" />
             </Link>
           </div>
           <div className="entry-holder">
             {/* Article number */}
             <div className="post-num">
-              <span className="current-post">Nightmare Moon</span>
+              <span className="current-post">Mune's Ascension</span>
             </div>
             {/* Blog title */}
             <h2 className="entry-title">
               <a href="/books/nmf/nmf2" target="_blank" rel="noopener noreferrer">
-                Coming Soon 
+                Release TBD 
               </a>
             </h2>
              {/* Some External Links */}
@@ -123,7 +123,7 @@ function nmf() {
               <div className="entry-info-left">
                 <div className="cat-links">
                 </div>
-                <div className="entry-date published">Learn More</div>
+                <div className="entry-date published">Have you read the first book?</div>
               </div>
               </div>
             <p className="read-more-arrow">
