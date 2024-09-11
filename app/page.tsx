@@ -108,19 +108,19 @@ function Hearth() {
             className="grid-item element-item "
           >
             <div className="item-wrapped">
-              <Link href="/merch">
+              <Link href="#">
                 <img src={merchpre.src} alt="" />
               </Link>
               <div className="portfolio-text-holder">
                 <div className="portfolio-info">
-                  <Link className="portfolio-text" href="/merch">
+                  <Link className="portfolio-text" href="#">
                     Merch
                   </Link>
                   <p className="portfolio-category">
-                    <Link href="/merch">See More</Link>
+                    <Link href="/merch">COMING SOON</Link>
                   </p>
                   <p className="portfolio-arrow">
-                    <Link href="/merch">
+                    <Link href="#">
                       <img src={arrow.src} alt="" />
                     </Link>
                   </p>

@@ -24,7 +24,6 @@ const Footer = () => {
             {/* Contact Info */}
             <div className="textwidget">
               <p>Dallas TX, USA</p>
-              <p>Phone: +123.456.789</p>
               <p>Email: hello@yoursite.com</p>
             </div>
           </li>
@@ -33,17 +32,17 @@ const Footer = () => {
             <h4 className="widgettitle">Check It Out!</h4>
             <ul>
               <li>
-                <Link href="/books/nmf">
+                <Link href="/haven">
                   Hazi's Haven
                 </Link>
               </li>
               <li>
-                <Link href="/books/coloringbook">
+                <Link href="/books/colorbook">
                   Coloring Book
                 </Link>
               </li>
               <li>
-                <Link href="/books/comingsoon">
+                <Link href="/books">
                   Whats Coming Soon?
                 </Link>
               </li>
@@ -54,9 +53,9 @@ const Footer = () => {
             <h4 className="widgettitle">Category</h4>
             <div className="tagcloud">
               <Link href="/books">Books</Link>
-              <Link href="/merch">Merch</Link>
+              {/* <Link href="/merch">Merch</Link> */}
               <Link href="/faire">Faire</Link>
-              <Link href="characterpedia">CharacterPedia</Link>
+              {/* <Link href="characterpedia">CharacterPedia</Link> */}
               <Link href="contact">Contact</Link>
             </div>
           </li>
@@ -70,8 +69,8 @@ const Footer = () => {
           <li className="social-footer">
             <Link href="https://www.patreon.com/newmunefaire">PATREON</Link>
             <Link href="https://www.facebook.com/">FACEBOOK</Link>
-            <Link href="https://www.instagram.com/">INSTAGRAM</Link>
-            <Link href="https://home.dorian.live/">DORIAN.LIVE</Link>
+            <Link href="https://www.instagram.com/claire.k.zada.author/">INSTAGRAM</Link>
+            <Link href="/haven">DORIAN.LIVE</Link>
           </li>
         </ul>
       </div>
