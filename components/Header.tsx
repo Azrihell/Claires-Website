@@ -51,7 +51,7 @@ const Header = () => {
                 <Link href="#" className="menuItems">Coming Soon</Link>
               </div>
             </li>
-            <li>
+            {/* <li>
               <Link href="/merch" className={pathname === "/merch" ? "current" : ""}>
                 Merch
               </Link>
@@ -60,7 +60,7 @@ const Header = () => {
               <Link href="/characterpedia" className={pathname === "/characterpedia" ? "current" : ""}>
                 CharacterPedia
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/contact" className={pathname === "/contact" ? "current" : ""}>
                 Contact
