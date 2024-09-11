@@ -95,22 +95,20 @@ const Contact = () => {
   return (
     <main className="page">
       <div id="content" className="site-content">
-        <div className="content-945 center-relative">
+        <div className="flex-center">
           {/* Contact Page description text */}
-          <div className="one_third">
-            
+          <div className="">
+          Need something?
           </div>
-          <div className="big-text">
-            Hello! Need Something?
-          </div>
+          
           <div className="clear"></div>
           {/* Contact Informations and links */}
-          <div className="one_third">
+          <div className="">
             <div className="info-code">
             </div>
           </div>
           {/* Contact Form */}
-          <div className="two_third last item-wrapped">
+          <div className="flex-center item-wrapped">
             <form className="contact-form" onSubmit={handleSubmit}>
               <p>
                 <input

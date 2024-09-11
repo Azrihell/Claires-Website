@@ -26,20 +26,21 @@ const Colorbook = () => {
   return (
     <main className="page">
       <div id="content" className="site-content">
-        {/* Description text */}
-        <div className="content-1140 center-relative">
-        <h1 className="entry-title">
-          New Mune's Coloring Book
-        </h1>
-          <div className="header-content center-relative block">
-           Mune is a colorful planet, teeming with magic, creations, and creatures beyond the reach of our world. But you can bring it to life within these pages. <br/>
-           The New Mune Faire Coloring Book contains races and notable characters from the books “New Mune Faire”, “Tale of the Kitsune”, “Erowid the Diviner” and game “Hazi’s Haven”. <br/>
-           Enjoy the getaway of bright colors and creativity as you please, whether you love the books, or just love filling up pages with splashes of art and flare!
+        <div className="flex-center" style={{ marginBottom: "48px"}}>
 
+          <div className="header-content block item-wrapped">
+            <h1 className="post-num">
+              New Munes' Coloring Book
+              <br />
+            </h1> <br />
+            <div>
+              <p className="abouttext">
+                 Mune is a colorful planet, teeming with magic, creations, and creatures beyond the reach of our world. But you can bring it to life within these pages.
+                  The New Mune Faire Coloring Book contains races and notable characters from the books “New Mune Faire”, “Tale of the Kitsune”, “Erowid the Diviner” and game “Hazi’s Haven”. <br/>
+                   Enjoy the getaway of bright colors and creativity as you please, whether you love the books, or just love filling up pages with splashes of art and flare!
+              </p>
+            </div>
           </div>
-          <div className="clear"></div>
-          <br />
-          <br />
         </div>
         {/* Gallery Items Slider */}
         <div className="full-page-width center-relative">
@@ -90,7 +91,7 @@ const Colorbook = () => {
             
           <div className="content-945 center-relative">
           <h1 className="entry-title">
-          Pre-Order on September 1st!
+          Pre-Order soon!
         </h1>
           </div>
 
