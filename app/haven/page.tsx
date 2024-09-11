@@ -21,7 +21,7 @@ function haven() {
         >
           <div className="post-thumbnail">
             {/* Article Image */}
-            <Link href="/books/nmf">
+            <Link href="#">
               <img src={gamecover.src} alt="" />
             </Link>
           </div>
@@ -35,10 +35,9 @@ function haven() {
               </a>
             </h2>
                 </div>
-                <div className="info-wrapper info-wrapped">
+                <div>
                   <AppStoreRedirectButton/>
                     </div>
-                <div className="clear"></div>
               </motion.article>
       </div>
     </main>

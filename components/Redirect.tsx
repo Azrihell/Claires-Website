@@ -17,7 +17,7 @@ const AppStoreRedirectButton = () => {
   };
 
   return (
-    <button onClick={handleRedirect}>
+    <button className="button" onClick={handleRedirect}>
       Download from App Store
     </button>
   );
