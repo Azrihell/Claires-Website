@@ -2058,7 +2058,15 @@ li.social-footer a:first-child {
     width: auto;
     height: auto;
   }
+
+  .info-wrapped {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #082012;
+    padding: 48px;
   
+}
 }
 
 
