@@ -156,9 +156,9 @@ function Blog() {
               <h2 className="entry-title">
               <a>
                 Darkest Mune - Erotic Stories After Dark (18+)
-              </a> <br/>
-              <a>Tale of the Kitsune</a> <br/>
-              <a>Tail of the Kitsunes - Children’s Book (4+)</a> <br/>
+              </a> <br/> <br/>
+              <a>Tale of the Kitsune</a> <br/> <br/>
+              <a>Tail of the Kitsunes - Children’s Book (4+)</a> <br/> <br/>
             </h2>
             </div>
             </div>

@@ -49,15 +49,15 @@ function About() {
 
           {/* Gallery Items Slider */}
         <div className="full-page-width center-relative">
-          <Swiper
+        <Swiper
             navigation={{
               nextEl: ".swiper-button-next",
               prevEl: ".swiper-button-prev",
             }}
             loop={true}
-            slidesPerView={3}
+            slidesPerView={"auto"}
             centeredSlides={true}
-            spaceBetween={600}
+            spaceBetween={50}
             autoplay={true}
             speed={1250}
             pagination={{ clickable: true}}
@@ -67,15 +67,19 @@ function About() {
             <SwiperSlide className="gallery-item">
               <img src={faire1.src} alt="" />
             </SwiperSlide>
+            
             <SwiperSlide className="gallery-item">
               <img src={faire2.src} alt="" />
             </SwiperSlide>
+
             <SwiperSlide className="gallery-item">
               <img src={faire3.src} alt="" />
             </SwiperSlide>
+
             <SwiperSlide className="gallery-item">
               <img src={faire4.src} alt="" />
             </SwiperSlide>
+            
             <SwiperSlide className="gallery-item">
               <img src={faire5.src} alt="" />
             </SwiperSlide>
