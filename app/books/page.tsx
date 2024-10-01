@@ -110,7 +110,7 @@ function Blog() {
         >
           <div className="post-thumbnail">
             {/* Article Image */}
-            <Link href="/books/nmf/nmf2">
+            <Link href="/books/nmf">
               <img src={NMF2Cover.src} alt="" />
             </Link>
           </div>
@@ -121,7 +121,7 @@ function Blog() {
             </div>
             {/* Blog title */}
             <h2 className="entry-title">
-              <a href="/books/nmf/nmf2" target="_blank" rel="noopener noreferrer">
+              <a href="/books/nmf" target="_blank" rel="noopener noreferrer">
                 Coming Soon 
               </a>
             </h2>
@@ -134,7 +134,7 @@ function Blog() {
               </div>
               </div>
             <p className="read-more-arrow">
-              <Link href="/books/nmf/nmf2">
+              <Link href="/books/nmf">
                 <img src={blogArrow.src} alt="Read More" />
               </Link>
             </p>
@@ -142,6 +142,30 @@ function Blog() {
           <div className="clear"></div>
         </motion.article>
 
+        <motion.article
+          initial={{ opacity: 0, transform: `translateY(50px)` }}
+          whileInView={{ opacity: 1, transform: `translateY(0px)` }}
+          viewport={{ once: true }}
+          className="animate relative blog-item-holder center-relative has-post-thumbnail"
+        >
+          
+          <div className="">
+            {/* Article number */}
+            <div className="post-num">
+              <span className="current-post">COMING SOON</span> 
+              <h2 className="entry-title">
+              <a>
+                Darkest Mune - Erotic Stories After Dark (18+)
+              </a> <br/>
+              <a>Tale of the Kitsune</a> <br/>
+              <a>Tail of the Kitsunes - Children’s Book (4+)</a> <br/>
+            </h2>
+            </div>
+            </div>
+            
+        </motion.article>
+
+        
         
       </div>
     </main>
