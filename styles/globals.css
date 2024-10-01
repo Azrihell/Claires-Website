@@ -1650,9 +1650,6 @@ li.social-footer a:first-child {
 }
 
 @media screen and (max-width: 1020px) {
-  .header-logo {
-    padding: 50px 0;
-  }
 
   .toggle-holder {
     top: 71px;
@@ -2067,6 +2064,11 @@ li.social-footer a:first-child {
     padding: 48px;
   
 }
+
+.header-logo img {
+  height: 320px;
+}
+
 }
 
 
