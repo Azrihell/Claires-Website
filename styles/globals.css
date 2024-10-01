@@ -1198,6 +1198,7 @@ p.abouttext {
   color: #000000; 
   border: 0;
   border-bottom: 1px solid;
+  border-radius: 4px;
   height: 28px;
   font-size: 18px;
   line-height: 25px;
@@ -2067,6 +2068,14 @@ li.social-footer a:first-child {
 
 .header-logo img {
   height: 320px;
+}
+
+.contact-form {
+  max-width: 100%;
+  width: auto;
+  margin: 0 auto;
+  font-size: 25px;
+  color: #ffffff;
 }
 
 }

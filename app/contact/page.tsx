@@ -95,20 +95,13 @@ const Contact = () => {
   return (
     <main className="page">
       <div id="content" className="site-content">
-        <div className="flex-center">
-          {/* Contact Page description text */}
-          <div className="">
-          Need something?
-          </div>
-          
-          <div className="clear"></div>
           {/* Contact Informations and links */}
           <div className="">
             <div className="info-code">
             </div>
           </div>
           {/* Contact Form */}
-          <div className="flex-center item-wrapped">
+          <div className="flex-center">
             <form className="contact-form" onSubmit={handleSubmit}>
               <p>
                 <input
@@ -168,7 +161,7 @@ const Contact = () => {
           </div>
           <div className="clear"></div>
         </div>
-      </div>
+      
     </main>
   );
 };
